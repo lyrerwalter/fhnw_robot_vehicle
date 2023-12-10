@@ -13,7 +13,7 @@ RemoteSystemsTempFiles/
 
 #Generate HW files
 */hw/**/*
-!*/hw/*.xsa
+#!*/hw/*.xsa
 
 
 #Generated BSP files
