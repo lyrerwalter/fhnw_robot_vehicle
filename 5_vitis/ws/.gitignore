@@ -4,6 +4,8 @@
 *.d
 *.del
 export/
+#/zybo/tempdsa/*.bit
+#/zybo/tempdsa/*.xsa
 
 #Workspace files
 .analytics
@@ -13,7 +15,7 @@ RemoteSystemsTempFiles/
 
 #Generate HW files
 */hw/**/*
-!*/hw/*.xsa
+#!*/hw/*.xsa
 
 
 #Generated BSP files

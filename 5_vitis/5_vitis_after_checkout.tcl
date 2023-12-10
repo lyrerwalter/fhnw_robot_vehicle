@@ -1,3 +1,4 @@
 # Check-outr:
-# cd <your-2_vivado-folder>
+cd ./ws
 source ./regenerate.tcl
+cd ..
