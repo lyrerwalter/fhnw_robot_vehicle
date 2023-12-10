@@ -24,3 +24,5 @@ platform active {zybo}
 platform active {zybo}
 platform generate
 platform active {zybo}
+platform generate zybo 
+platform generate
