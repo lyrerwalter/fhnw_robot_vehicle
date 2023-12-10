@@ -21,3 +21,5 @@ platform generate
 platform active {zybo}
 platform config -updatehw {C:/FHNW/prj2/fhnw_rv/4_vivado/SdkExport/zt_wrapper.xsa}
 platform active {zybo}
+platform active {zybo}
+platform generate
