@@ -4,6 +4,8 @@
 *.d
 *.del
 export/
+/zybo/tempdsa/*.bit
+/zybo/tempdsa/*.xsa
 
 #Workspace files
 .analytics
