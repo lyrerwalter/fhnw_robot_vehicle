@@ -13,28 +13,39 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.all;
 --use ieee.std_logic_textio.all;
 
+
 entity tb_verify_lf_sampler is
+    generic (
+        C_SAMPLE_LEN     : natural := 5;
+        C_SAMPLE_OK      : natural := 3
+    );
     port (
-        clk         : out std_ulogic;
-        reset_n     : out std_ulogic;
-        lf_pulse    : in  std_ulogic
+        clk           : out std_ulogic;
+        reset_n       : out std_ulogic;
+        lf_pulse      : out std_ulogic;
+        fb_right      : out std_ulogic;
+        fb_middle     : out std_ulogic;
+        fb_left       : out std_ulogic;
+        line_right    : in  std_ulogic;
+        line_middle   : in  std_ulogic;
+        line_left     : in  std_ulogic       
     );
 end tb_verify_lf_sampler;
 
 
 architecture sim of tb_verify_lf_sampler is
 
-   constant c_cycle : time := 8 ns;   -- 125 MHz
-   constant sim_time : time := c_cycle*200;
+    constant c_cycle : time := 8 ns;   -- 125 MHz
+    constant sim_time : time := 4400 ns;
 
     -- Control Signals
     signal stim_done : boolean := false;
-    signal sim_time  : boolean := false;
+
     
 begin
  
     -- -------------------------------------------------------
-    -- Stimuli for clock and reset
+    -- Stimuli for clock, reset and lf_pulse
     -- -------------------------------------------------------
     p_clk_and_rst : process
     begin
@@ -54,12 +65,62 @@ begin
         wait;
     end process p_clk_and_rst;
 
+ 
+    -- -------------------------------------------------------
+    -- Stimuli for lf_pulse
+    -- -------------------------------------------------------
+    p_lf_pulse : process
+    begin
+		-- Wait until reset is done
+		wait for 10*c_cycle;
 
+        -- Stimuli for lf_pulse
+        while (sim_time > now) loop
+            lf_pulse <= '0' after c_cycle,
+                '1' after 4*c_cycle;
+            wait for 4*c_cycle;
+        end loop;
+
+        -- Finish Process
+        report "Line Following Pulse Process finished";
+        wait;
+    end process p_lf_pulse;
 
  
     -- -------------------------------------------------------
-    -- Read from memory
+    -- Input Stimuli for fb_right, fb_middle, fb_left
     -- -------------------------------------------------------
+    p_line_follow : process
+    begin
+		-- Wait until reset is done
+		wait for 10*c_cycle;
+		
+		-- Wait for clock and pulse
+		wait for c_cycle;
+		
+		-- Stimuli for fb_right
+		for i in 1 to C_SAMPLE_LEN loop
+			fb_right <= '1';
+			wait for c_cycle;
+		end loop;
+		for i in 1 to C_SAMPLE_LEN loop
+			fb_right <= '0';
+			wait for c_cycle;
+		end loop;
+		for i in 1 to C_SAMPLE_LEN loop
+			if i mod 2 = 0 then fb_right <= '1'; else fb_right <= '0'; end if;
+			wait for c_cycle;
+		end loop;
+		for i in 1 to C_SAMPLE_LEN loop
+			if i mod 2 = 0 then fb_right <= '0'; else fb_right <= '1'; end if;
+			wait for c_cycle;
+		end loop;
+		fb_right <= '0';
+		
+        -- Finish Process
+        report "Line Following Indicators Process finished";
+        wait;
+	end process p_line_follow;
 
 
  
