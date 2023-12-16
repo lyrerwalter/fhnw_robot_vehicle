@@ -19,4 +19,5 @@ do scripts/wave.do
 # Run
 #-----------------------------------------------------
 # run -all
-run 4400 ns
+#run 4400 ns
+run 2400 ns

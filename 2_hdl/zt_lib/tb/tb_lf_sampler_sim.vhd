@@ -36,7 +36,7 @@ end tb_verify_lf_sampler;
 architecture sim of tb_verify_lf_sampler is
 
     constant c_cycle : time := 8 ns;   -- 125 MHz
-    constant sim_time : time := 4400 ns;
+    constant sim_time : time := 2400 ns;
 
     -- Control Signals
     signal stim_done : boolean := false;
@@ -50,13 +50,13 @@ begin
     p_clk_and_rst : process
     begin
         -- Stimuli for reset
-        reset_n <= transport '1',
-            '0' after 10*c_cycle;
-
-        -- Stimuli for clock
+        reset_n <= transport '0',
+            '1' after 5*c_cycle;
+		wait for 5*c_cycle;
+        
+		-- Stimuli for clock
         while (sim_time > now) loop
-            clk <= '1' after c_cycle/2,
-                '0' after c_cycle;
+            clk <= '1', '0' after c_cycle/2;
             wait for c_cycle;
         end loop;
 
@@ -72,12 +72,11 @@ begin
     p_lf_pulse : process
     begin
 		-- Wait until reset is done
-		wait for 10*c_cycle;
+		wait for 5*c_cycle;
 
         -- Stimuli for lf_pulse
         while (sim_time > now) loop
-            lf_pulse <= '0' after c_cycle,
-                '1' after 4*c_cycle;
+            lf_pulse <= '1', '0' after c_cycle;
             wait for 4*c_cycle;
         end loop;
 
@@ -93,29 +92,75 @@ begin
     p_line_follow : process
     begin
 		-- Wait until reset is done
-		wait for 10*c_cycle;
-		
-		-- Wait for clock and pulse
-		wait for c_cycle;
-		
+		wait for 5*c_cycle;
+
+        -- Add defined input from the beginning
+		fb_right  <= '0';
+		fb_middle <= '0';
+		fb_left   <= '0';
+
+
+
 		-- Stimuli for fb_right
 		for i in 1 to C_SAMPLE_LEN loop
 			fb_right <= '1';
-			wait for c_cycle;
+			wait for 4*c_cycle;
 		end loop;
 		for i in 1 to C_SAMPLE_LEN loop
 			fb_right <= '0';
-			wait for c_cycle;
+			wait for 4*c_cycle;
 		end loop;
 		for i in 1 to C_SAMPLE_LEN loop
 			if i mod 2 = 0 then fb_right <= '1'; else fb_right <= '0'; end if;
-			wait for c_cycle;
+			wait for 4*c_cycle;
 		end loop;
 		for i in 1 to C_SAMPLE_LEN loop
 			if i mod 2 = 0 then fb_right <= '0'; else fb_right <= '1'; end if;
-			wait for c_cycle;
+			wait for 4*c_cycle;
 		end loop;
 		fb_right <= '0';
+
+		wait for 12*c_cycle;
+
+		-- Stimuli for fb_middle
+		for i in 1 to C_SAMPLE_LEN loop
+			fb_middle <= '1';
+			wait for 4*c_cycle;
+		end loop;
+		for i in 1 to C_SAMPLE_LEN loop
+			fb_middle <= '0';
+			wait for 4*c_cycle;
+		end loop;
+		for i in 1 to C_SAMPLE_LEN loop
+			if i mod 2 = 0 then fb_middle <= '1'; else fb_middle <= '0'; end if;
+			wait for 4*c_cycle;
+		end loop;
+		for i in 1 to C_SAMPLE_LEN loop
+			if i mod 2 = 0 then fb_middle <= '0'; else fb_middle <= '1'; end if;
+			wait for 4*c_cycle;
+		end loop;
+		fb_middle <= '0';
+
+		wait for 12*c_cycle;
+
+		-- Stimuli for fb_left
+		for i in 1 to C_SAMPLE_LEN loop
+			fb_left <= '1';
+			wait for 4*c_cycle;
+		end loop;
+		for i in 1 to C_SAMPLE_LEN loop
+			fb_left <= '0';
+			wait for 4*c_cycle;
+		end loop;
+		for i in 1 to C_SAMPLE_LEN loop
+			if i mod 2 = 0 then fb_left <= '1'; else fb_left <= '0'; end if;
+			wait for 4*c_cycle;
+		end loop;
+		for i in 1 to C_SAMPLE_LEN loop
+			if i mod 2 = 0 then fb_left <= '0'; else fb_left <= '1'; end if;
+			wait for 4*c_cycle;
+		end loop;
+		fb_left <= '0';
 		
         -- Finish Process
         report "Line Following Indicators Process finished";
@@ -125,7 +170,7 @@ begin
 
  
     -- -------------------------------------------------------
-    -- Read from memory
+    -- Monitor results
     -- -------------------------------------------------------
 --    p_read : process
 --        file f_exp        : text open read_mode is c_exp;

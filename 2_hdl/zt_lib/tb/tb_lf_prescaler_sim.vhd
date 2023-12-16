@@ -40,7 +40,8 @@ begin
     begin
         -- Stimuli for reset_n
         reset_n <= transport '0',
-            '1' after 10*c_cycle;
+            '1' after 5*c_cycle;
+		wait for 5*c_cycle;
 
         -- Stimuli for clock
         while (sim_time > now) loop
