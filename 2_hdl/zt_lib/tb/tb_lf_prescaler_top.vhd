@@ -18,7 +18,7 @@ library zt_lib;
 
 entity tb_lf_prescaler is
   generic(
-    c_max: positive := 4
+    c_freq_div: positive := 4
     );
 end entity tb_lf_prescaler;
 
@@ -34,7 +34,7 @@ begin
 
   -- Instance port mappings.
   i0_lf_prescaler : entity zt_lib.lf_prescaler
-    generic map (c_max => c_max)
+    generic map (c_freq_div => c_freq_div)
     port map (
         clk         => clk_int,       -- IN
         reset_n     => reset_n_int,   -- IN

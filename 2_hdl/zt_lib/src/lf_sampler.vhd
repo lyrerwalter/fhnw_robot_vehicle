@@ -10,8 +10,8 @@ library zt_lib;
 
 entity lf_sampler is
     generic (
-        C_SAMPLE_LEN     : natural := 40;
-        C_SAMPLE_OK      : natural := 30
+        C_SAMPLE_LEN     : positive := 40;
+        C_SAMPLE_OK      : positive := 30
     );
     port (
         clk           : in  std_ulogic;
@@ -22,14 +22,13 @@ entity lf_sampler is
         fb_left       : in  std_ulogic;
         line_right    : out std_ulogic;
         line_middle   : out std_ulogic;
-        line_left     : out std_ulogic
-        
+        line_left     : out std_ulogic        
     );
 end lf_sampler;
 
 
 architecture rtl_lf_sampler of lf_sampler is
-	signal lf_pulse_bf : std_ulogic := '0';
+
 begin
 
     lf_sampler_reg : process (all)
@@ -41,6 +40,8 @@ begin
         variable cnt_left         : natural := 0;
     begin
         if rising_edge (clk) then
+
+
             -- default value
             line_right     <= '0';
             line_middle    <= '0';
@@ -48,15 +49,16 @@ begin
             cnt_right      := 0;
             cnt_middle     := 0;
             cnt_left       := 0;
-            lf_pulse_bf    <= '0';
-            
+
+
 			-- Assert input signals to be correct
 			assert has_value_stdulogic(fb_right)  report "Input signal fb_right<="  & to_string(fb_right)  & " has no defined signal 0 or 1."; 
 			assert has_value_stdulogic(fb_middle) report "Input signal fb_middle<=" & to_string(fb_middle) & " has no defined signal 0 or 1."; 
 			assert has_value_stdulogic(fb_left)   report "Input signal fb_left<="   & to_string(fb_left)   & " has no defined signal 0 or 1."; 
-            
+
+
             -- Check if pulse changes
-            if lf_pulse_bf = '0' and lf_pulse = '1' then
+            if lf_pulse = '1' then
                 -- Store fb_right, fb_middle and fb_left
                 --   by adding and shifting registers for measurement
                 shift_reg_right  := shift_reg_right(shift_reg_right'high-1 downto 0)   & fb_right;
@@ -83,21 +85,19 @@ begin
                 if cnt_right  >= C_SAMPLE_OK then line_right  <= '1'; else line_right  <= '0'; end if;
                 if cnt_middle >= C_SAMPLE_OK then line_middle <= '1'; else line_middle <= '0'; end if;
                 if cnt_left   >= C_SAMPLE_OK then line_left   <= '1'; else line_left   <= '0'; end if;
+				
             else 
 				line_right     <= line_right;
 				line_middle    <= line_middle;
 				line_left      <= line_left;
             end if;
 			
-			-- Set lf_pulse_bf to the value of lf_pulse for next clock
-			lf_pulse_bf <= lf_pulse;
             
             -- reset
             if reset_n = '0' then
                 line_right       <= '0';
                 line_middle      <= '0';
                 line_left        <= '0';
-                lf_pulse_bf      <= '0';
                 cnt_right        := 0;
                 cnt_middle       := 0;
                 cnt_left         := 0;

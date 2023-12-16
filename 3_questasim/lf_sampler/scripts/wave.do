@@ -20,7 +20,7 @@ add wave -color Gold -itemcolor Gold /tb_lf_sampler/i0_lf_sampler/fb_middle
 add wave -color Blue -itemcolor Blue /tb_lf_sampler/i0_lf_sampler/fb_left
 
 add wave -divider Internals
-add wave -internal /tb_lf_sampler/i0_lf_sampler/*
+#add wave -internal /tb_lf_sampler/i0_lf_sampler/*
 #add wave -color Cyan -itemcolor Cyan /tb_lf_sampler/i0_lf_sampler/fb_right
 #add wave -color Gold -itemcolor Gold /tb_lf_sampler/i0_lf_sampler/fb_middle
 #add wave -color Blue -itemcolor Blue /tb_lf_sampler/i0_lf_sampler/fb_left
