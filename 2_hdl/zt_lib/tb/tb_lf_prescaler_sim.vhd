@@ -25,7 +25,7 @@ end tb_verify_lf_prescaler;
 architecture sim of tb_verify_lf_prescaler is
 
    constant c_cycle : time := 8 ns;   -- 125 MHz
-   constant sim_time : time := 2200 ns;
+   constant sim_time : time := 300 ns;
 
     -- Control Signals
     signal stim_done : boolean := false;
@@ -40,7 +40,9 @@ begin
     begin
         -- Stimuli for reset_n
         reset_n <= transport '0',
-            '1' after 5*c_cycle;
+            '1' after 5*c_cycle,
+			'0' after 32*c_cycle,
+			'1' after 35*c_cycle;
 		wait for 5*c_cycle;
 
         -- Stimuli for clock

@@ -36,7 +36,7 @@ end tb_verify_lf_sampler;
 architecture sim of tb_verify_lf_sampler is
 
     constant c_cycle : time := 8 ns;   -- 125 MHz
-    constant sim_time : time := 2400 ns;
+    constant sim_time : time := 2500 ns;
 
     -- Control Signals
     signal stim_done : boolean := false;
@@ -51,7 +51,9 @@ begin
     begin
         -- Stimuli for reset
         reset_n <= transport '0',
-            '1' after 5*c_cycle;
+            '1' after 5*c_cycle,
+			'0' after 300*c_cycle,
+			'1' after 305*c_cycle;
 		wait for 5*c_cycle;
         
 		-- Stimuli for clock
@@ -161,6 +163,13 @@ begin
 			wait for 4*c_cycle;
 		end loop;
 		fb_left <= '0';
+		
+		wait for 10*c_cycle;
+		fb_right  <= '1';
+		fb_middle <= '1';
+		fb_left   <= '1';
+		
+		
 		
         -- Finish Process
         report "Line Following Indicators Process finished";
