@@ -34,7 +34,10 @@ entity ZyboTank_wrapper is
     FIXED_IO_mio : inout STD_LOGIC_VECTOR ( 53 downto 0 );
     FIXED_IO_ps_clk : inout STD_LOGIC;
     FIXED_IO_ps_porb : inout STD_LOGIC;
-    FIXED_IO_ps_srstb : inout STD_LOGIC
+    FIXED_IO_ps_srstb : inout STD_LOGIC;
+    fb_right : in std_ulogic;
+    fb_middle : in std_ulogic;
+    fb_left : in std_ulogic
   );
 end ZyboTank_wrapper;
 
@@ -61,7 +64,10 @@ architecture STRUCTURE of ZyboTank_wrapper is
     FIXED_IO_ddr_vrp : inout STD_LOGIC;
     FIXED_IO_ps_srstb : inout STD_LOGIC;
     FIXED_IO_ps_clk : inout STD_LOGIC;
-    FIXED_IO_ps_porb : inout STD_LOGIC
+    FIXED_IO_ps_porb : inout STD_LOGIC;
+    fb_right_0 : in std_ulogic;
+    fb_middle_0 : in std_ulogic;
+    fb_left_0 : in std_ulogic
   );
   end component ZyboTank;
 begin
@@ -87,6 +93,9 @@ ZyboTank_i: component ZyboTank
       FIXED_IO_mio(53 downto 0) => FIXED_IO_mio(53 downto 0),
       FIXED_IO_ps_clk => FIXED_IO_ps_clk,
       FIXED_IO_ps_porb => FIXED_IO_ps_porb,
-      FIXED_IO_ps_srstb => FIXED_IO_ps_srstb
+      FIXED_IO_ps_srstb => FIXED_IO_ps_srstb,
+      fb_right_0 => fb_right,
+      fb_middle_0 => fb_middle,
+      fb_left_0 => fb_left
     );
 end STRUCTURE;

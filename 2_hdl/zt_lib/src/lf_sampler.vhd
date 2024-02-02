@@ -31,7 +31,7 @@ architecture rtl_lf_sampler of lf_sampler is
 
 begin
 
-    lf_sampler_reg : process (all)
+    lf_sampler_reg : process (clk, reset_n, fb_right, fb_middle, fb_left)
         variable shift_reg_right  : std_ulogic_vector(C_SAMPLE_LEN-1 downto 0) := (OTHERS => '0');    
         variable shift_reg_middle : std_ulogic_vector(C_SAMPLE_LEN-1 downto 0) := (OTHERS => '0');    
         variable shift_reg_left   : std_ulogic_vector(C_SAMPLE_LEN-1 downto 0) := (OTHERS => '0');
@@ -86,10 +86,6 @@ begin
                 if cnt_middle >= C_SAMPLE_OK then line_middle <= '1'; else line_middle <= '0'; end if;
                 if cnt_left   >= C_SAMPLE_OK then line_left   <= '1'; else line_left   <= '0'; end if;
 				
-            else 
-				line_right     <= line_right;
-				line_middle    <= line_middle;
-				line_left      <= line_left;
             end if;
 			
             

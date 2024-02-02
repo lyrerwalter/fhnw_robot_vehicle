@@ -19,7 +19,7 @@ architecture rtl_lf_prescaler of lf_prescaler is
   signal count       : natural range 0 to c_freq_div;
 begin
 
-    lf_prescale_reg : process (all)
+    lf_prescale_reg : process (clk, reset_n)
     begin
         if rising_edge (clk) then
             -- default value

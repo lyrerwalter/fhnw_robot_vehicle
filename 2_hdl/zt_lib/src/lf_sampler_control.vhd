@@ -30,7 +30,8 @@ entity lf_sampler_control is
         fb_left       : in  std_ulogic;
         line_right    : out std_ulogic;
         line_middle   : out std_ulogic;
-        line_left     : out std_ulogic        
+        line_left     : out std_ulogic;
+        line_valid    : out std_ulogic
 	);
 end entity lf_sampler_control;
 
@@ -70,5 +71,7 @@ begin
         line_middle   =>   line_middle,   -- OUT
         line_left     =>   line_left      -- OUT  
     );
+	
+	line_valid    <= lf_pulse_int;
 
 end architecture rtl_lf_sampler_control;

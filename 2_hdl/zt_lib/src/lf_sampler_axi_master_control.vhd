@@ -25,18 +25,24 @@ entity lf_sampler_axi_master_control is
         c_freq_div       : positive := 8333;
 	    C_SAMPLE_LEN     : positive := 40;
         C_SAMPLE_OK      : positive := 30;
-        TPD_G            : time     := 1 ns;
-        RST_ASYNC_G      : boolean  := false
+		C_AXI_DATA_WIDTH : positive := 32
    );
     port (
-        clk             : in  std_ulogic;
-        reset_n         : in  std_ulogic;
-        fb_right        : in  std_ulogic;
-        fb_middle       : in  std_ulogic;
-        fb_left         : in  std_ulogic;
-        ack             : out AxiLiteAckType;
-        axilWriteMaster : out AxiLiteWriteMasterType;
-        axilReadMaster  : out AxiLiteReadMasterType
+        -- Control Signals signed
+        clk_s         : in  std_logic;
+        reset_n_s     : in  std_logic;
+
+        -- Input unsigned
+        fb_right      : in  std_ulogic;
+        fb_middle     : in  std_ulogic;
+        fb_left       : in  std_ulogic;
+--        line_valid    : in  std_ulogic;
+        
+        -- AXI 'Output' signed
+        Axi_TVALID    : out std_logic   := '0';
+        Axi_TREADY    : in  std_logic;
+        Axi_TDATA     : out std_logic_vector((C_AXI_DATA_WIDTH - 1) downto 0)   := (OTHERS => '0');
+        Axi_TLAST     : out std_logic   := '1'  -- Always last packet beat
 	);
 end entity lf_sampler_axi_master_control;
 
@@ -44,60 +50,54 @@ end entity lf_sampler_axi_master_control;
 architecture rtl_lf_sampler_axi_master_control of lf_sampler_axi_master_control is
 
     -- Internal signal declarations
-	signal clk_s        : std_ulogic;
-	signal axilRst_s    : std_ulogic;
-	signal req_s        : AxiLiteReqType;
-
-	
-    signal line_right      : std_ulogic;
-    signal line_middle     : std_ulogic;
-    signal line_left       : std_ulogic        
-    signal ack             : AxiLiteAckType;
-    signal axilWriteMaster : AxiLiteWriteMasterType;
-    signal axilReadMaster  : AxiLiteReadMasterType;
-
+    signal clk_u         : std_ulogic                       := '0';
+    signal reset_n_u     : std_ulogic                       := '1';
+ 
+    signal line_right_u  : std_ulogic                       := '0';
+    signal line_middle_u : std_ulogic                       := '0';
+    signal line_left_u   : std_ulogic                       := '0';
+    signal line_valid_u  : std_ulogic                       := '0';
 
 begin
-
-  clk_s                <= signed(clk);
-  axilRst_s            <= signed(axilRst);
-  req_s.request        <= ;
-  req_s.rnw        <= ;
-  req_s.address        <= ;
-  req_s.wrData        <= ;
 
   -- Instance port mappings.
   lf_sampler_control_map : entity zt_lib.lf_sampler_control
     generic map (
-        c_freq_div       : c_freq_div;
-	    C_SAMPLE_LEN     : C_SAMPLE_LEN;
-        C_SAMPLE_OK      : C_SAMPLE_OK
+        c_freq_div       => c_freq_div,
+	    C_SAMPLE_LEN     => C_SAMPLE_LEN,
+        C_SAMPLE_OK      => C_SAMPLE_OK
   	)
     port map (
-        clk           =>   clk,
-        reset_n       =>   reset_n,
-        fb_right      =>   xxuu,
-        fb_middle     =>   xxuu,
-        fb_left       =>   xxuu,
-        line_right    =>   xxuu,
-        line_middle   =>   xxuu,
-        line_left     =>   xxuu,        
+        clk           =>   clk_u,           -- IN
+        reset_n       =>   reset_n_u,        -- IN
+        fb_right      =>   fb_right,        -- IN
+        fb_middle     =>   fb_middle,       -- IN
+        fb_left       =>   fb_left,         -- IN
+        line_right    =>   line_right_u,    -- OUT
+        line_middle   =>   line_middle_u,   -- OUT
+        line_left     =>   line_left_u,     -- OUT
+        line_valid    =>   line_valid_u     -- OUT
       );
   
-  AxiLiteMaster_map : entity surf.AxiLiteMaster
-    generic (
-        TPD_G       : TPD_G;
-        RST_ASYNC_G : RST_ASYNC_G
-	);
-    port (
-        axilClk         =>   clk_s,
-        axilRst         =>   axilRst_s,
-        req             =>   xxuu,
-        axilWriteSlave  =>   xxuu,
-        axilReadSlave   =>   xxuu,,
-        ack             =>   xxuu,
-        axilWriteMaster =>   xxuu,
-        axilReadMaster  =>   xxuu,
-	);
+    axi_mstr_ctrl : process(clk_s, reset_n_s)
+    begin
+        if rising_edge(clk_s) then
+   
+		    -- Line data conversion
+		    Axi_TDATA      <= (line_right_u, line_middle_u, line_left_u, OTHERS => '0');
+			
+			if Axi_TREADY = '1' then
+				Axi_TVALID <= line_valid_u;
+			else
+				Axi_TVALID <= '0';			
+			end if;
+           
+			if (reset_n_s = '0') then
+				line_right_u  <= '0';
+				line_middle_u <= '0';
+				line_left_u   <= '0';
+			end if;
+        end if;    
+    end process;
 
 end architecture rtl_lf_sampler_axi_master_control;

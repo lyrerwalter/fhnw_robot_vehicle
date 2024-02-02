@@ -30,3 +30,6 @@ platform generate zybo
 platform generate
 platform active {zybo}
 platform config -updatehw {C:/FHNW/prj2/fhnw_rv/4_vivado/SdkExport/zt_wrapper.xsa}
+platform active {zybo}
+platform config -updatehw {C:/FHNW/prj2/fhnw_zt/4_vivado/SDKExport/ZyboTank_wrapper.xsa}
+platform generate
