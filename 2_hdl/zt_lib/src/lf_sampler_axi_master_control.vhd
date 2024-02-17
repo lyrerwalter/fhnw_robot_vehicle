@@ -13,9 +13,9 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.all;
 
-library surf;
-use surf.StdRtlPkg.all; 
-use surf.AxiLitePkg.all;
+--library surf;
+--use surf.StdRtlPkg.all; 
+--use surf.AxiLitePkg.all;
 
 library zt_lib;
 
