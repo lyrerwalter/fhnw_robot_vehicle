@@ -1,7 +1,7 @@
 #-----------------------------------------------------
 # File    : sim.do
 # Author  : Walter Lyrer
-# Date    : YYYY-MM-DD
+# Date    : 2024-02-23
 # Company : Institute of Microelectronics (IME) FHNW
 # Content : Stimuli File
 #-----------------------------------------------------

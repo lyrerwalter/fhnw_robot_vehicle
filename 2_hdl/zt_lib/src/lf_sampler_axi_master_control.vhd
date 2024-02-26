@@ -1,7 +1,7 @@
 -----------------------------------------------------
 -- Project : Zybo Tank
 -----------------------------------------------------
--- File    : lf_sampler_control.vhd
+-- File    : lf_sampler_axi_master_control.vhd
 -- Library : zt_lib
 -- Author  : Walter Lyrer
 -- Company : Institute of Microelectronics (IME) FHNW
@@ -69,7 +69,7 @@ begin
   	)
     port map (
         clk           =>   clk_u,           -- IN
-        reset_n       =>   reset_n_u,        -- IN
+        reset_n       =>   reset_n_u,       -- IN
         fb_right      =>   fb_right,        -- IN
         fb_middle     =>   fb_middle,       -- IN
         fb_left       =>   fb_left,         -- IN
@@ -82,7 +82,6 @@ begin
     axi_mstr_ctrl : process(clk_s, reset_n_s)
     begin
         if rising_edge(clk_s) then
-   
 		    -- Line data conversion
 		    Axi_TDATA      <= (line_right_u, line_middle_u, line_left_u, OTHERS => '0');
 			
@@ -92,11 +91,11 @@ begin
 				Axi_TVALID <= '0';			
 			end if;
            
-			if (reset_n_s = '0') then
+			/* if (reset_n_s = '0') then
 				line_right_u  <= '0';
 				line_middle_u <= '0';
 				line_left_u   <= '0';
-			end if;
+			end if; */
         end if;    
     end process;
 
