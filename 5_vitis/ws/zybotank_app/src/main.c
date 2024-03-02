@@ -32,7 +32,7 @@ void printfAddress(UINTPTR address) {
 }
 
 void printfWord(int word) {
-	printf("  Word: " & word);
+	printf("  Word: ", word);
 }
 
 int getNextAdress(UINTPTR address) {

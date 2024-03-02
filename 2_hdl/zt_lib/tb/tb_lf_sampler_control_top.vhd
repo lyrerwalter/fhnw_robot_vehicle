@@ -35,6 +35,7 @@ architecture struct of tb_lf_sampler_control is
     signal line_right_int    : std_ulogic;
     signal line_middle_int   : std_ulogic;
     signal line_left_int     : std_ulogic;
+    signal line_valid_int    : std_ulogic;
 
 
 begin
@@ -54,7 +55,8 @@ begin
         fb_left       => fb_left_int,
         line_right    => line_right_int,
         line_middle   => line_middle_int,
-        line_left     => line_left_int
+        line_left     => line_left_int,
+        line_valid    => line_valid_int
 	);
   i0_tb_verify_lf_sampler_control : entity work.tb_verify_lf_sampler_control
     generic map (
@@ -69,7 +71,8 @@ begin
         fb_left       => fb_left_int,
         line_right    => line_right_int,
         line_middle   => line_middle_int,
-        line_left     => line_left_int
+        line_left     => line_left_int,
+        line_valid    => line_valid_int
 	);
 
 end architecture struct;

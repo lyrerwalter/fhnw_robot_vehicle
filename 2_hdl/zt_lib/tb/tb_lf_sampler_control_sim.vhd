@@ -26,7 +26,8 @@ entity tb_verify_lf_sampler_control is
         fb_left       : out std_ulogic;
         line_right    : in  std_ulogic;
         line_middle   : in  std_ulogic;
-        line_left     : in  std_ulogic       
+        line_left     : in  std_ulogic;       
+        line_valid    : in  std_ulogic       
     );
 end tb_verify_lf_sampler_control;
 

@@ -15,9 +15,10 @@ use IEEE.STD_LOGIC_1164.all;
 
 entity tb_verify_lf_sampler_axi_master_control is
     generic (
+        c_freq_div       : positive := 4;
         C_SAMPLE_LEN     : natural := 5;
         C_SAMPLE_OK      : natural := 3;
-		C_AXI_DATA_WIDTH : positive := 32
+        C_AXI_DATA_WIDTH : positive := 32
     );
     port (
         clk           : out std_ulogic;
@@ -53,11 +54,11 @@ begin
         -- Stimuli for reset
         reset_n <= transport '0',
             '1' after 5*c_cycle,
-			'0' after 300*c_cycle,
-			'1' after 305*c_cycle;
-		wait for 5*c_cycle;
+            '0' after 300*c_cycle,
+            '1' after 305*c_cycle;
+        wait for 5*c_cycle;
         
-		-- Stimuli for clock
+        -- Stimuli for clock
         while (sim_time > now) loop
             clk <= '1', '0' after c_cycle/2;
             wait for c_cycle;
@@ -69,91 +70,101 @@ begin
     end process p_clk_and_rst;
 
  
-    -- -------------------------------------------------------
-    -- Input Stimuli for fb_right, fb_middle, fb_left
-    -- -------------------------------------------------------
+    -- -----------------------------------------------------------
+    -- Input Stimuli for fb_right, fb_middle, fb_left and TREADY
+    -- -----------------------------------------------------------
     p_line_follow : process
     begin
-		-- Wait until reset is done
-		wait for 5*c_cycle;
+        -- Wait until reset is done
+        wait for 5*c_cycle;
 
         -- Add defined input from the beginning
-		fb_right  <= '0';
-		fb_middle <= '0';
-		fb_left   <= '0';
+        fb_right   <= '0';
+        fb_middle  <= '0';
+        fb_left    <= '0';
+        Axi_TREADY <= '0';
 
 
 
-		-- Stimuli for fb_right
-		for i in 1 to C_SAMPLE_LEN loop
-			fb_right <= '1';
-			wait for 4*c_cycle;
-		end loop;
-		for i in 1 to C_SAMPLE_LEN loop
-			fb_right <= '0';
-			wait for 4*c_cycle;
-		end loop;
-		for i in 1 to C_SAMPLE_LEN loop
-			if i mod 2 = 0 then fb_right <= '1'; else fb_right <= '0'; end if;
-			wait for 4*c_cycle;
-		end loop;
-		for i in 1 to C_SAMPLE_LEN loop
-			if i mod 2 = 0 then fb_right <= '0'; else fb_right <= '1'; end if;
-			wait for 4*c_cycle;
-		end loop;
-		fb_right <= '0';
+        -- Stimuli for fb_right
+        for i in 1 to C_SAMPLE_LEN loop
+            fb_right <= '1';
+            Axi_TREADY <= '1';
+            wait for 4*c_cycle;
+        end loop;
+        for i in 1 to C_SAMPLE_LEN loop
+            fb_right <= '0';
+            Axi_TREADY <= '1';
+            wait for 4*c_cycle;
+        end loop;
+        for i in 1 to C_SAMPLE_LEN loop
+            if i mod 2 = 0 then fb_right <= '1'; Axi_TREADY <= '1'; else fb_right <= '0'; end if;
+            wait for 4*c_cycle;
+        end loop;
+        for i in 1 to C_SAMPLE_LEN loop
+            if i mod 2 = 0 then fb_right <= '0'; else fb_right <= '1'; end if;
+            wait for 4*c_cycle;
+        end loop;
+        fb_right <= '0';        
+        Axi_TREADY <= '0';
+        
+        wait for 12*c_cycle;
 
-		wait for 12*c_cycle;
+        -- Stimuli for fb_middle
+        for i in 1 to C_SAMPLE_LEN loop
+            fb_middle <= '1';
+            Axi_TREADY <= '1';
+            wait for 4*c_cycle;
+        end loop;
+        for i in 1 to C_SAMPLE_LEN loop
+            fb_middle <= '0';
+            Axi_TREADY <= '1';
+            wait for 4*c_cycle;
+        end loop;
+        for i in 1 to C_SAMPLE_LEN loop
+            if i mod 2 = 0 then fb_middle <= '1'; Axi_TREADY <= '1'; else fb_middle <= '0'; end if;
+            wait for 4*c_cycle;
+        end loop;
+        for i in 1 to C_SAMPLE_LEN loop
+            if i mod 2 = 0 then fb_middle <= '0'; else fb_middle <= '1'; end if;
+            wait for 4*c_cycle;
+        end loop;
+        fb_middle <= '0';
+        Axi_TREADY <= '0';
+        
+        wait for 12*c_cycle;
 
-		-- Stimuli for fb_middle
-		for i in 1 to C_SAMPLE_LEN loop
-			fb_middle <= '1';
-			wait for 4*c_cycle;
-		end loop;
-		for i in 1 to C_SAMPLE_LEN loop
-			fb_middle <= '0';
-			wait for 4*c_cycle;
-		end loop;
-		for i in 1 to C_SAMPLE_LEN loop
-			if i mod 2 = 0 then fb_middle <= '1'; else fb_middle <= '0'; end if;
-			wait for 4*c_cycle;
-		end loop;
-		for i in 1 to C_SAMPLE_LEN loop
-			if i mod 2 = 0 then fb_middle <= '0'; else fb_middle <= '1'; end if;
-			wait for 4*c_cycle;
-		end loop;
-		fb_middle <= '0';
-
-		wait for 12*c_cycle;
-
-		-- Stimuli for fb_left
-		for i in 1 to C_SAMPLE_LEN loop
-			fb_left <= '1';
-			wait for 4*c_cycle;
-		end loop;
-		for i in 1 to C_SAMPLE_LEN loop
-			fb_left <= '0';
-			wait for 4*c_cycle;
-		end loop;
-		for i in 1 to C_SAMPLE_LEN loop
-			if i mod 2 = 0 then fb_left <= '1'; else fb_left <= '0'; end if;
-			wait for 4*c_cycle;
-		end loop;
-		for i in 1 to C_SAMPLE_LEN loop
-			if i mod 2 = 0 then fb_left <= '0'; else fb_left <= '1'; end if;
-			wait for 4*c_cycle;
-		end loop;
-		fb_left <= '0';
-				
-		wait for 10*c_cycle;
-		fb_right  <= '1';
-		fb_middle <= '1';
-		fb_left   <= '1';
+        -- Stimuli for fb_left
+        for i in 1 to C_SAMPLE_LEN loop
+            fb_left <= '1';
+            Axi_TREADY <= '1';
+            wait for 4*c_cycle;
+        end loop;
+        for i in 1 to C_SAMPLE_LEN loop
+            fb_left <= '0';
+            Axi_TREADY <= '1';
+            wait for 4*c_cycle;
+        end loop;
+        for i in 1 to C_SAMPLE_LEN loop
+            if i mod 2 = 0 then fb_left <= '1'; Axi_TREADY <= '1'; else fb_left <= '0'; end if;
+            wait for 4*c_cycle;
+        end loop;
+        for i in 1 to C_SAMPLE_LEN loop
+            if i mod 2 = 0 then fb_left <= '0'; else fb_left <= '1'; end if;
+            wait for 4*c_cycle;
+        end loop;
+        fb_left <= '0';
+                
+        wait for 10*c_cycle;
+        fb_right   <= '1';
+        fb_middle  <= '1';
+        fb_left    <= '1';
+        Axi_TREADY <= '1';
 
         -- Finish Process
         report "Line Following Indicators Process finished";
         wait;
-	end process p_line_follow;
+    end process p_line_follow;
   
     -- -------------------------------------------------------
     -- Read from memory

@@ -50,9 +50,6 @@ end entity lf_sampler_axi_master_control;
 architecture rtl_lf_sampler_axi_master_control of lf_sampler_axi_master_control is
 
     -- Internal signal declarations
-    signal clk_u         : std_ulogic                       := '0';
-    signal reset_n_u     : std_ulogic                       := '1';
- 
     signal line_right_u  : std_ulogic                       := '0';
     signal line_middle_u : std_ulogic                       := '0';
     signal line_left_u   : std_ulogic                       := '0';
@@ -68,8 +65,8 @@ begin
         C_SAMPLE_OK      => C_SAMPLE_OK
   	)
     port map (
-        clk           =>   clk_u,           -- IN
-        reset_n       =>   reset_n_u,       -- IN
+        clk           =>   clk_s,           -- IN
+        reset_n       =>   reset_n_s,       -- IN
         fb_right      =>   fb_right,        -- IN
         fb_middle     =>   fb_middle,       -- IN
         fb_left       =>   fb_left,         -- IN
@@ -78,6 +75,7 @@ begin
         line_left     =>   line_left_u,     -- OUT
         line_valid    =>   line_valid_u     -- OUT
       );
+
   
     axi_mstr_ctrl : process(clk_s, reset_n_s)
     begin
@@ -91,11 +89,14 @@ begin
 				Axi_TVALID <= '0';			
 			end if;
            
-			/* if (reset_n_s = '0') then
-				line_right_u  <= '0';
-				line_middle_u <= '0';
-				line_left_u   <= '0';
-			end if; */
+			if (reset_n_s = '0') then
+				--	line_right_u  <= '0';
+				--	line_middle_u <= '0';
+				--	line_left_u   <= '0';
+				Axi_TVALID <= '0';
+				Axi_TDATA <= (OTHERS => '0');
+				Axi_TVALID <= '1';
+			end if;
         end if;    
     end process;
 

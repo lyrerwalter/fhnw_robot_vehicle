@@ -34,3 +34,13 @@ platform active {zybo}
 platform config -updatehw {C:/FHNW/prj2/fhnw_zt/4_vivado/SDKExport/ZyboTank_wrapper.xsa}
 platform generate
 platform active {zybo}
+platform active {zybo}
+platform config -updatehw {C:/FHNW/prj2/fhnw_zt/4_vivado/SDKExport/ZyboTank_wrapper.xsa}
+platform generate
+platform config -updatehw {C:/FHNW/prj2/fhnw_zt/4_vivado/SDKExport/ZyboTank_wrapper.xsa}
+platform clean
+platform clean
+platform clean
+platform generate
+platform generate zybo 
+platform generate

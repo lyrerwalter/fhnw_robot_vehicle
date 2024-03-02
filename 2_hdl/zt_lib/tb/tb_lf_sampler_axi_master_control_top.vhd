@@ -63,6 +63,7 @@ begin
 	);
   i0_tb_verify_lf_sampler_axi_master_control : entity work.tb_verify_lf_sampler_axi_master_control
     generic map (
+	    c_freq_div         => c_freq_div,
 	    C_SAMPLE_LEN       => C_SAMPLE_LEN,
         C_SAMPLE_OK        => C_SAMPLE_OK,
         C_AXI_DATA_WIDTH   => C_AXI_DATA_WIDTH

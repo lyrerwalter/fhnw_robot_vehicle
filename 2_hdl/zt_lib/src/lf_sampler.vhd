@@ -43,9 +43,9 @@ begin
 
 
             -- default value
-            line_right     <= '0';
-            line_middle    <= '0';
-            line_left      <= '0';
+            --line_right     <= '0';
+            --line_middle    <= '0';
+            --line_left      <= '0';
             cnt_right      := 0;
             cnt_middle     := 0;
             cnt_left       := 0;

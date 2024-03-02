@@ -17,6 +17,7 @@ add wave /tb_lf_sampler_control/i0_lf_sampler_control/reset_n
 add wave -color Cyan -itemcolor Cyan /tb_lf_sampler_control/i0_lf_sampler_control/fb_right
 add wave -color Gold -itemcolor Gold /tb_lf_sampler_control/i0_lf_sampler_control/fb_middle
 add wave -color Blue -itemcolor Blue /tb_lf_sampler_control/i0_lf_sampler_control/fb_left
+add wave /tb_lf_sampler_control/i0_lf_sampler_control/line_valid
 
 add wave -divider Internals
 add wave -internal /tb_lf_sampler_control/i0_lf_sampler_control/*
