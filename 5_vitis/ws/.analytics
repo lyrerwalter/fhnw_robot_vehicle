@@ -45,3 +45,6 @@ timestamp=[2024-03-08 10:30:11], mode=BUILD, duration=0:00:00.136, duration_ms=1
 timestamp=[2024-03-08 10:30:45], mode=PLATFORM_GENERATION, duration=0:00:10.594, duration_ms=10594, data={name=zybo_tank}
 timestamp=[2024-03-08 10:30:46], mode=BUILD, duration=0:00:00.844, duration_ms=844, data={name=zybo_tank_app, configuration=Debug, clean_build=false}
 timestamp=[2024-03-08 10:30:46], mode=BUILD, duration=0:00:00.145, duration_ms=145, data={name=zybo_tank_app_system, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-03-08 23:15:20], mode=WORKBENCH_START, duration=0:00:10.050, duration_ms=10050, data={}
+timestamp=[2024-03-08 23:15:21], mode=WORKBENCH_UI_INIT, duration=0:00:00.975, duration_ms=975, data={editors_count=6, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,zybo_tank,zybo_tank_app,zybo_tank_app_system}
+timestamp=[2024-03-08 23:15:22], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.278, duration_ms=1278, data={}
