@@ -52,9 +52,9 @@ begin
 
 
 			-- Assert input signals to be correct
-			assert has_value_stdulogic(fb_right)  report "Input signal fb_right<="  & to_string(fb_right)  & " has no defined signal 0 or 1."; 
-			assert has_value_stdulogic(fb_middle) report "Input signal fb_middle<=" & to_string(fb_middle) & " has no defined signal 0 or 1."; 
-			assert has_value_stdulogic(fb_left)   report "Input signal fb_left<="   & to_string(fb_left)   & " has no defined signal 0 or 1."; 
+			assert has_value_stdulogic(fb_right)  report "Input signal fb_right<="  & std_ulogic'image(fb_right)   & " has no defined signal 0 or 1."; 
+			assert has_value_stdulogic(fb_middle) report "Input signal fb_middle<=" & std_ulogic'image(fb_middle)  & " has no defined signal 0 or 1."; 
+			assert has_value_stdulogic(fb_left)   report "Input signal fb_left<="   & std_ulogic'image(fb_left)    & " has no defined signal 0 or 1."; 
 
 
             -- Check if pulse changes
@@ -62,11 +62,11 @@ begin
                 -- Store fb_right, fb_middle and fb_left
                 --   by adding and shifting registers for measurement
                 shift_reg_right  := shift_reg_right(shift_reg_right'high-1 downto 0)   & fb_right;
-				assert shift_reg_right(0) = fb_right report "New value of fb_right<=" & to_string(fb_right) & " in shift_reg_right not shifted";
+				assert shift_reg_right(0) = fb_right report "New value of fb_right<=" & std_ulogic'image(fb_right) & " in shift_reg_right not shifted";
                 shift_reg_middle := shift_reg_middle(shift_reg_middle'high-1 downto 0) & fb_middle;
-				assert shift_reg_middle(0) = fb_middle report "New value of fb_middle<=" & to_string(fb_middle) & " in shift_reg_middle not shifted";
+				assert shift_reg_middle(0) = fb_middle report "New value of fb_middle<=" & std_ulogic'image(fb_middle) & " in shift_reg_middle not shifted";
                 shift_reg_left   := shift_reg_left(shift_reg_left'high-1 downto 0)     & fb_left;
-				assert shift_reg_left(0) = fb_left report "New value of fb_left<=" & to_string(fb_left) & " in shift_reg_left not shifted";
+				assert shift_reg_left(0) = fb_left report "New value of fb_left<=" & std_ulogic'image(fb_left) & " in shift_reg_left not shifted";
 				-- report "shift_reg_right := " & to_string_stdulogicvector(shift_reg_right);
                 
                 -- Calculate if more than  '1'                

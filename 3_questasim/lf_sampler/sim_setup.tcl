@@ -17,12 +17,12 @@ alias com {
   vmap zt_tb_lib work
 
   # Compile Source
-  vcom -2008 -work zt_lib $SRC/lf_common_pkg.vhd
-  vcom -2008 -work zt_lib $SRC/lf_sampler.vhd  
+  vcom -work zt_lib $SRC/lf_common_pkg.vhd
+  vcom -work zt_lib $SRC/lf_sampler.vhd  
   
   # Compile Testbench
-  vcom -2008 -work zt_tb_lib $TB/tb_lf_sampler_sim.vhd
-  vcom -2008 -work zt_tb_lib $TB/tb_lf_sampler_top.vhd
+  vcom -work zt_tb_lib $TB/tb_lf_sampler_sim.vhd
+  vcom -work zt_tb_lib $TB/tb_lf_sampler_top.vhd
 }
 
 # ----------------------------------------
