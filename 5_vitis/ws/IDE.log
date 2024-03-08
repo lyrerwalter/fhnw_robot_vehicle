@@ -1,0 +1,514 @@
+08:55:34 DEBUG : Logs will be stored at 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/IDE.log'.
+08:55:39 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\FHNW\prj2\fhnw_zt\5_vitis\ws\temp_xsdb_launch_script.tcl
+08:55:39 INFO  : Registering command handlers for Vitis TCF services
+08:55:40 INFO  : Platform repository initialization has completed.
+08:55:43 INFO  : XSCT server has started successfully.
+08:55:43 INFO  : plnx-install-location is set to ''
+08:55:47 INFO  : Successfully done setting XSCT server connection channel  
+08:55:47 INFO  : Successfully done query RDI_DATADIR 
+08:55:47 INFO  : Successfully done setting workspace for the tool. 
+08:57:47 INFO  : Result from executing command 'getProjects': zybo_tank
+08:57:47 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+08:58:53 INFO  : No changes in MSS file content so sources will not be generated.
+08:59:14 INFO  : No changes in MSS file content so sources will not be generated.
+09:04:19 INFO  : Result from executing command 'removePlatformRepo': 
+09:04:46 INFO  : Result from executing command 'getProjects': zybo_tank
+09:04:46 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+09:04:53 INFO  : Checking for BSP changes to sync application flags for project 'zybo_tank_app'...
+09:06:57 INFO  : Checking for BSP changes to sync application flags for project 'zybo_tank_app'...
+09:08:30 INFO  : Checking for BSP changes to sync application flags for project 'zybo_tank_app'...
+09:09:20 INFO  : Checking for BSP changes to sync application flags for project 'zybo_tank_app'...
+09:12:48 INFO  : Checking for BSP changes to sync application flags for project 'zybo_tank_app'...
+09:15:20 INFO  : Checking for BSP changes to sync application flags for project 'zybo_tank_app'...
+09:17:05 INFO  : Checking for BSP changes to sync application flags for project 'zybo_tank_app'...
+09:17:34 INFO  : Checking for BSP changes to sync application flags for project 'zybo_tank_app'...
+09:17:47 INFO  : Checking for BSP changes to sync application flags for project 'zybo_tank_app'...
+09:18:08 INFO  : Checking for BSP changes to sync application flags for project 'zybo_tank_app'...
+09:24:25 INFO  : Checking for BSP changes to sync application flags for project 'zybo_tank_app'...
+09:24:58 INFO  : Checking for BSP changes to sync application flags for project 'zybo_tank_app'...
+09:25:47 INFO  : Checking for BSP changes to sync application flags for project 'zybo_tank_app'...
+09:26:25 INFO  : Checking for BSP changes to sync application flags for project 'zybo_tank_app'...
+09:27:57 INFO  : Checking for BSP changes to sync application flags for project 'zybo_tank_app'...
+09:29:24 INFO  : Checking for BSP changes to sync application flags for project 'zybo_tank_app'...
+09:32:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:32:19 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE18A' is selected.
+09:32:19 INFO  : 'jtag frequency' command is executed.
+09:32:19 INFO  : Context for 'APU' is selected.
+09:32:19 INFO  : System reset is completed.
+09:32:22 INFO  : 'after 3000' command is executed.
+09:32:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE18A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B0FE18A-13722093-0"}' command is executed.
+09:32:24 INFO  : Device configured successfully with "C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/bitstream/ZyboTank_wrapper.bit"
+09:32:24 INFO  : Context for 'APU' is selected.
+09:32:24 INFO  : Hardware design and registers information is loaded from 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank/export/zybo_tank/hw/ZyboTank_wrapper.xsa'.
+09:32:24 INFO  : 'configparams force-mem-access 1' command is executed.
+09:32:24 INFO  : Context for 'APU' is selected.
+09:32:24 INFO  : Sourcing of 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/psinit/ps7_init.tcl' is done.
+09:32:24 INFO  : 'ps7_init' command is executed.
+09:32:24 INFO  : 'ps7_post_config' command is executed.
+09:32:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:32:24 INFO  : The application 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/Debug/zybo_tank_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+09:32:25 INFO  : 'configparams force-mem-access 0' command is executed.
+09:32:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE18A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B0FE18A-13722093-0"}
+fpga -file C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/bitstream/ZyboTank_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank/export/zybo_tank/hw/ZyboTank_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/Debug/zybo_tank_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+09:32:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:32:25 INFO  : 'con' command is executed.
+09:32:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+09:32:25 INFO  : Launch script is exported to file 'C:\FHNW\prj2\fhnw_zt\5_vitis\ws\zybo_tank_app_system\_ide\scripts\debugger_zybo_tank_app-default.tcl'
+09:34:47 INFO  : Disconnected from the channel tcfchan#3.
+09:35:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:35:05 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE18A' is selected.
+09:35:05 INFO  : 'jtag frequency' command is executed.
+09:35:05 INFO  : Context for 'APU' is selected.
+09:35:06 INFO  : System reset is completed.
+09:35:09 INFO  : 'after 3000' command is executed.
+09:35:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE18A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B0FE18A-13722093-0"}' command is executed.
+09:35:10 INFO  : Device configured successfully with "C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/bitstream/ZyboTank_wrapper.bit"
+09:35:10 INFO  : Context for 'APU' is selected.
+09:35:10 INFO  : Hardware design and registers information is loaded from 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank/export/zybo_tank/hw/ZyboTank_wrapper.xsa'.
+09:35:10 INFO  : 'configparams force-mem-access 1' command is executed.
+09:35:10 INFO  : Context for 'APU' is selected.
+09:35:10 INFO  : Sourcing of 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/psinit/ps7_init.tcl' is done.
+09:35:10 INFO  : 'ps7_init' command is executed.
+09:35:10 INFO  : 'ps7_post_config' command is executed.
+09:35:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:35:11 INFO  : The application 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/Debug/zybo_tank_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+09:35:11 INFO  : 'configparams force-mem-access 0' command is executed.
+09:35:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE18A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B0FE18A-13722093-0"}
+fpga -file C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/bitstream/ZyboTank_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank/export/zybo_tank/hw/ZyboTank_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/Debug/zybo_tank_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+09:35:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:35:11 INFO  : 'con' command is executed.
+09:35:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+09:35:11 INFO  : Launch script is exported to file 'C:\FHNW\prj2\fhnw_zt\5_vitis\ws\zybo_tank_app_system\_ide\scripts\debugger_zybo_tank_app-default.tcl'
+09:36:58 INFO  : Disconnected from the channel tcfchan#4.
+09:37:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:37:47 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE18A' is selected.
+09:37:47 INFO  : 'jtag frequency' command is executed.
+09:37:47 INFO  : Context for 'APU' is selected.
+09:37:47 INFO  : System reset is completed.
+09:37:50 INFO  : 'after 3000' command is executed.
+09:37:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE18A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B0FE18A-13722093-0"}' command is executed.
+09:37:51 INFO  : Device configured successfully with "C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/bitstream/ZyboTank_wrapper.bit"
+09:37:51 INFO  : Context for 'APU' is selected.
+09:37:51 INFO  : Hardware design and registers information is loaded from 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank/export/zybo_tank/hw/ZyboTank_wrapper.xsa'.
+09:37:51 INFO  : 'configparams force-mem-access 1' command is executed.
+09:37:51 INFO  : Context for 'APU' is selected.
+09:37:51 INFO  : Sourcing of 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/psinit/ps7_init.tcl' is done.
+09:37:51 INFO  : 'ps7_init' command is executed.
+09:37:51 INFO  : 'ps7_post_config' command is executed.
+09:37:51 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:37:52 INFO  : The application 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/Debug/zybo_tank_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+09:37:52 INFO  : 'configparams force-mem-access 0' command is executed.
+09:37:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE18A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B0FE18A-13722093-0"}
+fpga -file C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/bitstream/ZyboTank_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank/export/zybo_tank/hw/ZyboTank_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/Debug/zybo_tank_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+09:37:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:37:52 INFO  : 'con' command is executed.
+09:37:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+09:37:52 INFO  : Launch script is exported to file 'C:\FHNW\prj2\fhnw_zt\5_vitis\ws\zybo_tank_app_system\_ide\scripts\debugger_zybo_tank_app-default.tcl'
+09:39:42 INFO  : Disconnected from the channel tcfchan#5.
+09:45:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:45:08 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE18A' is selected.
+09:45:08 INFO  : 'jtag frequency' command is executed.
+09:45:08 INFO  : Context for 'APU' is selected.
+09:45:08 INFO  : System reset is completed.
+09:45:11 INFO  : 'after 3000' command is executed.
+09:45:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE18A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B0FE18A-13722093-0"}' command is executed.
+09:45:13 INFO  : Device configured successfully with "C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/bitstream/ZyboTank_wrapper.bit"
+09:45:13 INFO  : Context for 'APU' is selected.
+09:45:13 INFO  : Hardware design and registers information is loaded from 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank/export/zybo_tank/hw/ZyboTank_wrapper.xsa'.
+09:45:13 INFO  : 'configparams force-mem-access 1' command is executed.
+09:45:13 INFO  : Context for 'APU' is selected.
+09:45:13 INFO  : Sourcing of 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/psinit/ps7_init.tcl' is done.
+09:45:13 INFO  : 'ps7_init' command is executed.
+09:45:13 INFO  : 'ps7_post_config' command is executed.
+09:45:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:45:13 INFO  : The application 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/Debug/zybo_tank_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+09:45:13 INFO  : 'configparams force-mem-access 0' command is executed.
+09:45:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE18A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B0FE18A-13722093-0"}
+fpga -file C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/bitstream/ZyboTank_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank/export/zybo_tank/hw/ZyboTank_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/Debug/zybo_tank_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+09:45:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:45:14 INFO  : 'con' command is executed.
+09:45:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+09:45:14 INFO  : Launch script is exported to file 'C:\FHNW\prj2\fhnw_zt\5_vitis\ws\zybo_tank_app_system\_ide\scripts\debugger_zybo_tank_app-default.tcl'
+09:47:27 INFO  : Disconnected from the channel tcfchan#6.
+09:47:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:47:31 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE18A' is selected.
+09:47:31 INFO  : 'jtag frequency' command is executed.
+09:47:31 INFO  : Context for 'APU' is selected.
+09:47:31 INFO  : System reset is completed.
+09:47:34 INFO  : 'after 3000' command is executed.
+09:47:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE18A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B0FE18A-13722093-0"}' command is executed.
+09:47:35 INFO  : Device configured successfully with "C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/bitstream/ZyboTank_wrapper.bit"
+09:47:35 INFO  : Context for 'APU' is selected.
+09:47:35 INFO  : Hardware design and registers information is loaded from 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank/export/zybo_tank/hw/ZyboTank_wrapper.xsa'.
+09:47:35 INFO  : 'configparams force-mem-access 1' command is executed.
+09:47:35 INFO  : Context for 'APU' is selected.
+09:47:35 INFO  : Sourcing of 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/psinit/ps7_init.tcl' is done.
+09:47:36 INFO  : 'ps7_init' command is executed.
+09:47:36 INFO  : 'ps7_post_config' command is executed.
+09:47:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:47:36 INFO  : The application 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/Debug/zybo_tank_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+09:47:36 INFO  : 'configparams force-mem-access 0' command is executed.
+09:47:36 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE18A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B0FE18A-13722093-0"}
+fpga -file C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/bitstream/ZyboTank_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank/export/zybo_tank/hw/ZyboTank_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/Debug/zybo_tank_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+09:47:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:47:36 INFO  : 'con' command is executed.
+09:47:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+09:47:36 INFO  : Launch script is exported to file 'C:\FHNW\prj2\fhnw_zt\5_vitis\ws\zybo_tank_app_system\_ide\scripts\debugger_zybo_tank_app-default.tcl'
+09:48:07 INFO  : Disconnected from the channel tcfchan#7.
+09:50:05 INFO  : Checking for BSP changes to sync application flags for project 'zybo_tank_app'...
+09:50:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:50:27 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE18A' is selected.
+09:50:27 INFO  : 'jtag frequency' command is executed.
+09:50:27 INFO  : Context for 'APU' is selected.
+09:50:27 INFO  : System reset is completed.
+09:50:30 INFO  : 'after 3000' command is executed.
+09:50:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE18A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B0FE18A-13722093-0"}' command is executed.
+09:50:32 INFO  : Device configured successfully with "C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/bitstream/ZyboTank_wrapper.bit"
+09:50:32 INFO  : Context for 'APU' is selected.
+09:50:32 INFO  : Hardware design and registers information is loaded from 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank/export/zybo_tank/hw/ZyboTank_wrapper.xsa'.
+09:50:32 INFO  : 'configparams force-mem-access 1' command is executed.
+09:50:32 INFO  : Context for 'APU' is selected.
+09:50:32 INFO  : Sourcing of 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/psinit/ps7_init.tcl' is done.
+09:50:32 INFO  : 'ps7_init' command is executed.
+09:50:32 INFO  : 'ps7_post_config' command is executed.
+09:50:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:50:32 INFO  : The application 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/Debug/zybo_tank_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+09:50:32 INFO  : 'configparams force-mem-access 0' command is executed.
+09:50:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE18A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B0FE18A-13722093-0"}
+fpga -file C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/bitstream/ZyboTank_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank/export/zybo_tank/hw/ZyboTank_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/Debug/zybo_tank_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+09:50:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:50:32 INFO  : 'con' command is executed.
+09:50:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+09:50:32 INFO  : Launch script is exported to file 'C:\FHNW\prj2\fhnw_zt\5_vitis\ws\zybo_tank_app_system\_ide\scripts\debugger_zybo_tank_app-default.tcl'
+10:17:47 INFO  : Disconnected from the channel tcfchan#8.
+10:18:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:18:26 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE18A' is selected.
+10:18:26 INFO  : 'jtag frequency' command is executed.
+10:18:26 INFO  : Context for 'APU' is selected.
+10:18:26 INFO  : System reset is completed.
+10:18:29 INFO  : 'after 3000' command is executed.
+10:18:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE18A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B0FE18A-13722093-0"}' command is executed.
+10:18:30 INFO  : Device configured successfully with "C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/bitstream/ZyboTank_wrapper.bit"
+10:18:31 INFO  : Context for 'APU' is selected.
+10:18:31 INFO  : Hardware design and registers information is loaded from 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank/export/zybo_tank/hw/ZyboTank_wrapper.xsa'.
+10:18:31 INFO  : 'configparams force-mem-access 1' command is executed.
+10:18:31 INFO  : Context for 'APU' is selected.
+10:18:31 INFO  : Sourcing of 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/psinit/ps7_init.tcl' is done.
+10:18:31 INFO  : 'ps7_init' command is executed.
+10:18:31 INFO  : 'ps7_post_config' command is executed.
+10:18:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:18:31 INFO  : The application 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/Debug/zybo_tank_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:18:31 INFO  : 'configparams force-mem-access 0' command is executed.
+10:18:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE18A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B0FE18A-13722093-0"}
+fpga -file C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/bitstream/ZyboTank_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank/export/zybo_tank/hw/ZyboTank_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/Debug/zybo_tank_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:18:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:18:32 INFO  : 'con' command is executed.
+10:18:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:18:32 INFO  : Launch script is exported to file 'C:\FHNW\prj2\fhnw_zt\5_vitis\ws\zybo_tank_app_system\_ide\scripts\debugger_zybo_tank_app-default.tcl'
+10:19:02 INFO  : Disconnected from the channel tcfchan#9.
+10:20:05 INFO  : Checking for BSP changes to sync application flags for project 'zybo_tank_app'...
+10:20:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:20:15 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE18A' is selected.
+10:20:15 INFO  : 'jtag frequency' command is executed.
+10:20:15 INFO  : Context for 'APU' is selected.
+10:20:15 INFO  : System reset is completed.
+10:20:18 INFO  : 'after 3000' command is executed.
+10:20:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE18A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B0FE18A-13722093-0"}' command is executed.
+10:20:20 INFO  : Device configured successfully with "C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/bitstream/ZyboTank_wrapper.bit"
+10:20:20 INFO  : Context for 'APU' is selected.
+10:20:20 INFO  : Hardware design and registers information is loaded from 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank/export/zybo_tank/hw/ZyboTank_wrapper.xsa'.
+10:20:20 INFO  : 'configparams force-mem-access 1' command is executed.
+10:20:20 INFO  : Context for 'APU' is selected.
+10:20:20 INFO  : Sourcing of 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/psinit/ps7_init.tcl' is done.
+10:20:20 INFO  : 'ps7_init' command is executed.
+10:20:20 INFO  : 'ps7_post_config' command is executed.
+10:20:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:20:20 INFO  : The application 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/Debug/zybo_tank_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:20:20 INFO  : 'configparams force-mem-access 0' command is executed.
+10:20:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE18A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B0FE18A-13722093-0"}
+fpga -file C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/bitstream/ZyboTank_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank/export/zybo_tank/hw/ZyboTank_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/Debug/zybo_tank_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:20:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:20:20 INFO  : 'con' command is executed.
+10:20:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:20:20 INFO  : Launch script is exported to file 'C:\FHNW\prj2\fhnw_zt\5_vitis\ws\zybo_tank_app_system\_ide\scripts\debugger_zybo_tank_app-default.tcl'
+10:20:59 INFO  : Disconnected from the channel tcfchan#10.
+10:21:49 INFO  : Checking for BSP changes to sync application flags for project 'zybo_tank_app'...
+10:21:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:21:59 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE18A' is selected.
+10:21:59 INFO  : 'jtag frequency' command is executed.
+10:21:59 INFO  : Context for 'APU' is selected.
+10:21:59 INFO  : System reset is completed.
+10:22:02 INFO  : 'after 3000' command is executed.
+10:22:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE18A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B0FE18A-13722093-0"}' command is executed.
+10:22:04 INFO  : Device configured successfully with "C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/bitstream/ZyboTank_wrapper.bit"
+10:22:04 INFO  : Context for 'APU' is selected.
+10:22:04 INFO  : Hardware design and registers information is loaded from 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank/export/zybo_tank/hw/ZyboTank_wrapper.xsa'.
+10:22:04 INFO  : 'configparams force-mem-access 1' command is executed.
+10:22:04 INFO  : Context for 'APU' is selected.
+10:22:04 INFO  : Sourcing of 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/psinit/ps7_init.tcl' is done.
+10:22:04 INFO  : 'ps7_init' command is executed.
+10:22:04 INFO  : 'ps7_post_config' command is executed.
+10:22:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:22:04 INFO  : The application 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/Debug/zybo_tank_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:22:04 INFO  : 'configparams force-mem-access 0' command is executed.
+10:22:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE18A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B0FE18A-13722093-0"}
+fpga -file C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/bitstream/ZyboTank_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank/export/zybo_tank/hw/ZyboTank_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/Debug/zybo_tank_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:22:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:22:04 INFO  : 'con' command is executed.
+10:22:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:22:04 INFO  : Launch script is exported to file 'C:\FHNW\prj2\fhnw_zt\5_vitis\ws\zybo_tank_app_system\_ide\scripts\debugger_zybo_tank_app-default.tcl'
+10:22:55 INFO  : Disconnected from the channel tcfchan#11.
+10:24:58 DEBUG : Logs will be stored at 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/IDE.log'.
+10:24:59 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\FHNW\prj2\fhnw_zt\5_vitis\ws\temp_xsdb_launch_script.tcl
+10:25:01 INFO  : XSCT server has started successfully.
+10:25:01 INFO  : plnx-install-location is set to ''
+10:25:01 INFO  : Successfully done setting XSCT server connection channel  
+10:25:01 INFO  : Successfully done setting workspace for the tool. 
+10:25:04 INFO  : Successfully done query RDI_DATADIR 
+10:25:04 INFO  : Registering command handlers for Vitis TCF services
+10:25:05 INFO  : Platform repository initialization has completed.
+10:26:08 INFO  : Result from executing command 'removePlatformRepo': 
+10:26:34 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+10:27:16 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+10:29:12 INFO  : Result from executing command 'getProjects': zybo_tank
+10:29:12 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+10:29:55 INFO  : Checking for BSP changes to sync application flags for project 'zybo_tank_app'...
+10:30:08 INFO  : Result from executing command 'removePlatformRepo': 
+10:30:44 INFO  : Result from executing command 'getProjects': zybo_tank
+10:30:44 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+10:30:45 INFO  : Checking for BSP changes to sync application flags for project 'zybo_tank_app'...
+10:31:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:31:21 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE18A' is selected.
+10:31:21 INFO  : 'jtag frequency' command is executed.
+10:31:21 INFO  : Context for 'APU' is selected.
+10:31:21 INFO  : System reset is completed.
+10:31:24 INFO  : 'after 3000' command is executed.
+10:31:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE18A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B0FE18A-13722093-0"}' command is executed.
+10:31:25 INFO  : Device configured successfully with "C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/bitstream/ZyboTank_wrapper.bit"
+10:31:25 INFO  : Context for 'APU' is selected.
+10:31:25 INFO  : Hardware design and registers information is loaded from 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank/export/zybo_tank/hw/ZyboTank_wrapper.xsa'.
+10:31:25 INFO  : 'configparams force-mem-access 1' command is executed.
+10:31:25 INFO  : Context for 'APU' is selected.
+10:31:25 INFO  : Sourcing of 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/psinit/ps7_init.tcl' is done.
+10:31:25 INFO  : 'ps7_init' command is executed.
+10:31:25 INFO  : 'ps7_post_config' command is executed.
+10:31:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:31:26 INFO  : The application 'C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/Debug/zybo_tank_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:31:26 INFO  : 'configparams force-mem-access 0' command is executed.
+10:31:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE18A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B0FE18A-13722093-0"}
+fpga -file C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/bitstream/ZyboTank_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank/export/zybo_tank/hw/ZyboTank_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/FHNW/prj2/fhnw_zt/5_vitis/ws/zybo_tank_app/Debug/zybo_tank_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:31:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:31:26 INFO  : 'con' command is executed.
+10:31:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:31:26 INFO  : Launch script is exported to file 'C:\FHNW\prj2\fhnw_zt\5_vitis\ws\zybo_tank_app_system\_ide\scripts\debugger_zybo_tank_app-default.tcl'
+10:32:37 INFO  : Disconnected from the channel tcfchan#7.

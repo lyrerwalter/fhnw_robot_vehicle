@@ -1,0 +1,58 @@
+#include <stdio.h>
+#include <sleep.h>
+#include <xil_io.h>
+#include <xparameters.h>
+
+#include <stdio.h>
+#include <sleep.h>
+#include <xil_io.h>
+#include <xparameters.h>
+
+int main() {
+	printf("hello from zybo!\n");
+	int word;  // integers are 32 bits wide!
+	int count = 0;
+	int address = XPAR_PS7_DDR_0_S_AXI_BASEADDR + count;
+	while (1) {
+		printfAddress(address);
+		word = Xil_In32(address);
+		printfWord(word);
+		address = getNextAdress(address);
+	}
+}
+
+void printfAddress(int address) {
+	printf("Address: 0x");
+	printf(address);
+	if ( (address = XPAR_PS7_DDR_0_S_AXI_BASEADDR) ) {
+		printf(" - BaseAddress");
+	} else if (address = XPAR_PS7_DDR_0_S_AXI_HIGHADDR) {
+		printf(" - HighAddress");
+	}
+	printf("\n");
+}
+
+void printfWord(int word) {
+	printf("  Word: ");
+	printf(word);
+}
+
+int getNextAdress(int address) {
+	int outAddress = address;
+	if (outAddress = XPAR_PS7_DDR_0_S_AXI_HIGHADDR) {
+		outAddress = XPAR_PS7_DDR_0_S_AXI_BASEADDR;
+	} else {
+		outAddress++;
+	}
+	return outAddress;
+}
+
+//int main() {
+//	printf("hello from zybo!\n");
+//	int word1;  // integers are 32 bits wide
+//	while (1) {
+//		sleep(1);
+//		seconds++;
+//		printf("&u seconds passed\n");
+//	}
+//}
