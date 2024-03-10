@@ -29,7 +29,7 @@ entity lf_sampler_axi_master_control is
    );
     port (
         -- Control Signals signed
-        clk_s         : in  std_logic;
+        Axi_ACLK         : in  std_logic;
         reset_n_s     : in  std_logic;
 
         -- Input unsigned
@@ -65,7 +65,7 @@ begin
         C_SAMPLE_OK      => C_SAMPLE_OK
   	)
     port map (
-        clk           =>   clk_s,           -- IN
+        clk           =>   Axi_ACLK,        -- IN
         reset_n       =>   reset_n_s,       -- IN
         fb_right      =>   fb_right,        -- IN
         fb_middle     =>   fb_middle,       -- IN
@@ -76,28 +76,22 @@ begin
         line_valid    =>   line_valid_u     -- OUT
       );
 
-  
-    axi_mstr_ctrl : process(clk_s, reset_n_s)
-    begin
-        if rising_edge(clk_s) then
-		    -- Line data conversion
-		    Axi_TDATA      <= (line_right_u, line_middle_u, line_left_u, OTHERS => '0');
-			
-			if Axi_TREADY = '1' then
-				Axi_TVALID <= line_valid_u;
-			else
-				Axi_TVALID <= '0';			
-			end if;
-           
-			if (reset_n_s = '0') then
-				--	line_right_u  <= '0';
-				--	line_middle_u <= '0';
-				--	line_left_u   <= '0';
-				Axi_TVALID <= '0';
-				Axi_TDATA <= (OTHERS => '0');
-				Axi_TVALID <= '1';
-			end if;
-        end if;    
-    end process;
+
+ lf_axi_master_adapter_map : entity zt_lib.lf_axi_master_adapter
+    generic map (
+ 		C_AXI_DATA_WIDTH => C_AXI_DATA_WIDTH
+ 	)
+    port map (
+        Axi_ACLK      =>   Axi_ACLK,        -- IN
+        reset_n_s     =>   reset_n_s,       -- IN
+        fb_right      =>   line_right_u,    -- IN
+        fb_middle     =>   line_middle_u,   -- IN
+        fb_left       =>   line_left_u,     -- IN
+        line_valid    =>   line_valid_u,    -- IN
+        Axi_TVALID    =>   Axi_TVALID,      -- OUT
+        Axi_TREADY    =>   Axi_TREADY,      -- IN
+        Axi_TDATA     =>   Axi_TDATA,       -- OUT
+        Axi_TLAST     =>   Axi_TLAST        -- OUT
+      );
 
 end architecture rtl_lf_sampler_axi_master_control;

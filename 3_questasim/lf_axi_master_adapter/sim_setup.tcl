@@ -1,7 +1,7 @@
 # ----------------------------------------
 # Initialize variables
 # if ![info exists TOP_LEVEL_NAME] { 
-  set TOP_LEVEL_NAME "tb_lf_sampler_axi_master_control"
+  set TOP_LEVEL_NAME "tb_lf_axi_master_adapter"
   set SRC "../../2_hdl/zt_lib/src"
   set TB  "../../2_hdl/zt_lib/tb"
 # }
@@ -17,22 +17,18 @@ alias com {
   vmap zt_tb_lib work
 
   # Compile Source
-  vcom -work zt_lib $SRC/lf_common_pkg.vhd  
-  vcom -work zt_lib $SRC/lf_sampler.vhd  
-  vcom -work zt_lib $SRC/lf_sampler_control.vhd  
   vcom -work zt_lib $SRC/lf_axi_master_adapter.vhd  
-  vcom -work zt_lib $SRC/lf_sampler_axi_master_control.vhd  
   
   # Compile Testbench
-  vcom -work zt_tb_lib $TB/tb_lf_sampler_axi_master_control_sim.vhd
-  vcom -work zt_tb_lib $TB/tb_lf_sampler_axi_master_control_top.vhd
+  vcom -work zt_tb_lib $TB/tb_lf_axi_master_adapter_sim.vhd
+  vcom -work zt_tb_lib $TB/tb_lf_axi_master_adapter_top.vhd
 }
 
 # ----------------------------------------
 # Elaborate the top level design with novopt option
 alias ld {
   echo "\[exec\] elab"
-  eval vsim -L work $TOP_LEVEL_NAME -voptargs=+acc -gc_freq_div=3 -gC_SAMPLE_LEN=5 -gC_SAMPLE_OK=3 -gC_AXI_DATA_WIDTH=32
+  eval vsim -L work $TOP_LEVEL_NAME -voptargs=+acc -gC_SAMPLE_LEN=5 -gC_AXI_DATA_WIDTH=32
 }
 
 # ----------------------------------------

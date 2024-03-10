@@ -12,7 +12,7 @@ restart -f -nowave
 #-----------------------------------------------------
 add wave -divider Inputs
 #add wave -in /tb_lf_sampler_axi_master_control/i0_lf_sampler_axi_master_control/*
-add wave /tb_lf_sampler_axi_master_control/i0_lf_sampler_axi_master_control/clk_s
+add wave /tb_lf_sampler_axi_master_control/i0_lf_sampler_axi_master_control/axi_aclk
 add wave /tb_lf_sampler_axi_master_control/i0_lf_sampler_axi_master_control/reset_n_s
 add wave -color Cyan    -itemcolor Cyan    /tb_lf_sampler_axi_master_control/i0_lf_sampler_axi_master_control/fb_right
 add wave -color Gold    -itemcolor Gold    /tb_lf_sampler_axi_master_control/i0_lf_sampler_axi_master_control/fb_middle
