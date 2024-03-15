@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="ZyboTank_ila_1_1_synth_1" LaunchDir="C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/ZyboTank_ila_1_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZyboTank_processing_system7_0_0_synth_1" LaunchDir="C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/ZyboTank_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZyboTank_proc_sys_reset_0_0_synth_1" LaunchDir="C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/ZyboTank_proc_sys_reset_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZyboTank_axi_dma_1_0_synth_1" LaunchDir="C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/ZyboTank_axi_dma_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZyboTank_ila_0_2_synth_1" LaunchDir="C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/ZyboTank_ila_0_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZyboTank_lf_sampler_axi_maste_0_2_synth_1" LaunchDir="C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/ZyboTank_lf_sampler_axi_maste_0_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="ZyboTank_ila_1_1_synth_1"/>
+		<Parent Id="ZyboTank_processing_system7_0_0_synth_1"/>
+		<Parent Id="ZyboTank_proc_sys_reset_0_0_synth_1"/>
+		<Parent Id="ZyboTank_axi_dma_1_0_synth_1"/>
+		<Parent Id="ZyboTank_ila_0_2_synth_1"/>
+		<Parent Id="ZyboTank_lf_sampler_axi_maste_0_2_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

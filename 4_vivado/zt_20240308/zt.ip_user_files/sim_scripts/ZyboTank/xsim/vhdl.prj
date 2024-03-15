@@ -1,0 +1,14 @@
+vhdl xil_defaultlib  \
+"../../../bd/ZyboTank/ip/ZyboTank_proc_sys_reset_0_0/sim/ZyboTank_proc_sys_reset_0_0.vhd" \
+"../../../bd/ZyboTank/ip/ZyboTank_smartconnect_0_0/bd_0/ip/ip_1/sim/bd_77ab_psr_aclk_0.vhd" \
+"../../../bd/ZyboTank/ip/ZyboTank_axi_dma_1_0/sim/ZyboTank_axi_dma_1_0.vhd" \
+"../../../bd/ZyboTank/ip/ZyboTank_system_ila_0_1/bd_0/ip/ip_0/sim/bd_22c6_ila_lib_0.vhd" \
+"../../../bd/ZyboTank/ip/ZyboTank_system_ila_0_1/bd_0/sim/bd_22c6.vhd" \
+"../../../bd/ZyboTank/ip/ZyboTank_system_ila_0_1/sim/ZyboTank_system_ila_0_1.vhd" \
+"../../../bd/ZyboTank/ip/ZyboTank_ila_0_2/sim/ZyboTank_ila_0_2.vhd" \
+"../../../bd/ZyboTank/ip/ZyboTank_ila_1_1/sim/ZyboTank_ila_1_1.vhd" \
+"../../../bd/ZyboTank/ip/ZyboTank_lf_sampler_axi_maste_0_2/sim/ZyboTank_lf_sampler_axi_maste_0_2.vhd" \
+"../../../bd/ZyboTank/sim/ZyboTank.vhd" \
+
+# Do not sort compile order
+nosort

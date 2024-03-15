@@ -1,0 +1,34 @@
+#Build Results
+*.o
+*.elf
+*.d
+*.del
+export/
+#/zybo/tempdsa/*.bit
+#/zybo/tempdsa/*.xsa
+
+#Workspace files
+.analytics
+.metadata
+RemoteSystemsTempFiles/
+**/_ide/*
+
+#Generate HW files
+*/hw/**/*
+#!*/hw/*.xsa
+
+
+#Generated BSP files
+**/*bsp/ps7_cortexa9_*
+**/*bsp/psu_cortexa53_*
+**/*bsp/psu_cortexr5_*
+**/*bsp/psu_pmu_*
+
+#BSP Export (listed contents separately because "export" is a common name)
+*/export/
+
+Makefile
+*.mk
+
+#log files
+*.log

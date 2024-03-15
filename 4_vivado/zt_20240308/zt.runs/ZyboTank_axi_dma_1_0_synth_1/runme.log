@@ -1,0 +1,24 @@
+
+*** Running vivado
+    with args -log ZyboTank_axi_dma_1_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ZyboTank_axi_dma_1_0.tcl
+
+
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source ZyboTank_axi_dma_1_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1462.031 ; gain = 160.711
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ZyboTank_axi_dma_1_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 4000a18108bb328b to dir: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/ZyboTank_axi_dma_1_0_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/4/0/4000a18108bb328b/ZyboTank_axi_dma_1_0.dcp to C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/ZyboTank_axi_dma_1_0_synth_1/ZyboTank_axi_dma_1_0.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/4/0/4000a18108bb328b/ZyboTank_axi_dma_1_0_sim_netlist.v to C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/ZyboTank_axi_dma_1_0_synth_1/ZyboTank_axi_dma_1_0_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/4/0/4000a18108bb328b/ZyboTank_axi_dma_1_0_sim_netlist.vhdl to C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/ZyboTank_axi_dma_1_0_synth_1/ZyboTank_axi_dma_1_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/4/0/4000a18108bb328b/ZyboTank_axi_dma_1_0_stub.v to C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/ZyboTank_axi_dma_1_0_synth_1/ZyboTank_axi_dma_1_0_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/4/0/4000a18108bb328b/ZyboTank_axi_dma_1_0_stub.vhdl to C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/ZyboTank_axi_dma_1_0_synth_1/ZyboTank_axi_dma_1_0_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP ZyboTank_axi_dma_1_0, cache-ID = 4000a18108bb328b.
+INFO: [Common 17-206] Exiting Vivado at Sat Mar  2 16:52:19 2024...
