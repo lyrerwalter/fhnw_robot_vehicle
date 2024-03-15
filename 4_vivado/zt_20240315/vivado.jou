@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Fri Mar 15 14:02:31 2024
+# Process ID: 20540
+# Current directory: C:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240315
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3136 C:\FHNW\prj2\fhnw_zt\4_vivado\zt_20240315\zt.xpr
+# Log file: C:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240315/vivado.log
+# Journal file: C:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240315\vivado.jou
+# Running On: DESKTOP-EOOIIGE, OS: Windows, CPU Frequency: 1996 MHz, CPU Physical cores: 8, Host memory: 16539 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240315/zt.xpr
+open_bd_design {C:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240315/zt.srcs/sources_1/bd/bd/bd.bd}
+update_compile_order -fileset sources_1

@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]C:\FHNW\prj2\fhnw_zt\5_vitis\ws\zybo\zynq_fsbl\fsbl.elf
+	C:\FHNW\prj2\fhnw_zt\5_vitis\ws\zybo\hw\bd_wrapper.bit
+	C:\FHNW\prj2\fhnw_zt\5_vitis\ws\zybo_app\Debug\zybo_app.elf
+}

@@ -3,10 +3,10 @@
 # SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Fri Mar 15 09:22:57 2024
-# Process ID: 20956
+# Start of session at: Fri Mar 15 11:45:52 2024
+# Process ID: 21724
 # Current directory: C:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11420 C:\FHNW\prj2\fhnw_zt\4_vivado\zt_20240308\zt.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16860 C:\FHNW\prj2\fhnw_zt\4_vivado\zt_20240308\zt.xpr
 # Log file: C:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308/vivado.log
 # Journal file: C:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308\vivado.jou
 # Running On: DESKTOP-EOOIIGE, OS: Windows, CPU Frequency: 1996 MHz, CPU Physical cores: 8, Host memory: 16539 MB
@@ -32,207 +32,25 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 avail
 INFO: [Project 1-313] Project file moved from 'C:/FHNW/prj2/fhnw_zt/4_vivado/zt' since last save.
 Scanning sources...
 Finished scanning sources
-CRITICAL WARNING: [Runs 36-271] Incremental checkpoint part, xc7z020clg400-1, does not match run part, xc7z010clg400-1.
+CRITICAL WARNING: [Runs 36-271] Incremental checkpoint part, xc7z010clg400-1, does not match run part, xc7z020clg400-1.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
-open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:20 . Memory (MB): peak = 2592.152 ; gain = 512.809
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:18 . Memory (MB): peak = 2566.223 ; gain = 465.395
 update_compile_order -fileset sources_1
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-copy_run -name impl_1_copy_1 [get_runs impl_1] -parent_run synth_1
-copy_run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 2642.398 ; gain = 9.625
-impl_1_copy_1
-set_property part xc7z020clg400-1 [current_project]
 open_bd_design {C:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308/zt.srcs/sources_1/bd/ZyboTank/ZyboTank.bd}
 Reading block design file <C:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308/zt.srcs/sources_1/bd/ZyboTank/ZyboTank.bd>...
 Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
 Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
 Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_1
 Adding component instance block -- xilinx.com:ip:ila:6.2 - ila_0
+INFO: [xilinx.com:ip:ila:6.2-6] /ila_0: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
 Adding component instance block -- xilinx.com:ip:ila:6.2 - ila_1
-Adding component instance block -- xilinx.com:module_ref:lf_sampler_axi_master_control:1.0 - lf_sampler_axi_maste_0
+INFO: [xilinx.com:ip:ila:6.2-6] /ila_1: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
 Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - smartconnect_0
 Adding component instance block -- xilinx.com:ip:system_ila:1.1 - system_ila_0
+Adding component instance block -- xilinx.com:module_ref:lf_sampler_axi_master_control:1.0 - lf_sampler_axi_maste_0
 Successfully read diagram <ZyboTank> from block design file <C:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308/zt.srcs/sources_1/bd/ZyboTank/ZyboTank.bd>
-open_bd_design: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 2642.457 ; gain = 0.059
-validate_bd_design -force
-ERROR: [BD 5-336] This command cannot be run, as the BD-design is locked. Locked reason(s):
-* Block design contains locked IPs. Please run report_ip_status for more details and recommendations on how to fix this issue. 
-List of locked IPs: 
-ZyboTank_processing_system7_0_0
-ZyboTank_proc_sys_reset_0_0
-ZyboTank_axi_dma_1_0
-ZyboTank_ila_1_1
-ZyboTank_ila_0_2
-ZyboTank_smartconnect_0_0
-ZyboTank_system_ila_0_1
-
-ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
-report_ip_status -name ip_status 
-upgrade_ip [get_ips  {ZyboTank_processing_system7_0_0 ZyboTank_lf_sampler_axi_maste_0_2 ZyboTank_proc_sys_reset_0_0 ZyboTank_system_ila_0_1 ZyboTank_axi_dma_1_0 ZyboTank_ila_1_1 ZyboTank_smartconnect_0_0 ZyboTank_ila_0_2}] -log ip_upgrade.log
-INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
-INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n_s' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
-INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi_ACLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
-INFO: [IP_Flow 19-4728] Bus Interface 'Axi_ACLK': Added interface parameter 'ASSOCIATED_BUSIF' with value 'Axi'.
-WARNING: [IP_Flow 19-11770] Clock interface 'Axi_ACLK' has no FREQ_HZ parameter.
-Upgrading 'C:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308/zt.srcs/sources_1/bd/ZyboTank/ZyboTank.bd'
-INFO: [IP_Flow 19-3420] Updated ZyboTank_axi_dma_1_0 to use current project options
-INFO: [IP_Flow 19-3420] Updated ZyboTank_ila_0_2 to use current project options
-INFO: [xilinx.com:ip:ila:6.2-6] /ila_0_upgraded_ipi: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
-INFO: [IP_Flow 19-3420] Updated ZyboTank_ila_1_1 to use current project options
-INFO: [xilinx.com:ip:ila:6.2-6] /ila_1_upgraded_ipi: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
-INFO: [IP_Flow 19-3420] Updated ZyboTank_lf_sampler_axi_maste_0_2 to use current project options
-WARNING: [IP_Flow 19-4700] Upgrade has removed port 'clk_s'
-WARNING: [IP_Flow 19-4698] Upgrade has added port 'Axi_ACLK'
-WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'ZyboTank_lf_sampler_axi_maste_0_2'. These changes may impact your design.
-CRITICAL WARNING: [BD 41-1167] The pin 'clk_s' is not found on the upgraded version of the cell '/lf_sampler_axi_maste_0'. Its connection to the net 'processing_system7_0_FCLK_CLK0' has been removed.
-INFO: [IP_Flow 19-3420] Updated ZyboTank_proc_sys_reset_0_0 to use current project options
-INFO: [IP_Flow 19-3420] Updated ZyboTank_processing_system7_0_0 to use current project options
-INFO: [IP_Flow 19-3420] Updated ZyboTank_smartconnect_0_0 to use current project options
-INFO: [IP_Flow 19-3420] Updated ZyboTank_system_ila_0_1 to use current project options
-CRITICAL WARNING: [Coretcl 2-1279] The upgrade of 'ZyboTank_lf_sampler_axi_maste_0_2' has identified issues that may require user intervention. Please review the upgrade log 'c:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308/ip_upgrade.log', and verify that the upgraded IP is correctly configured.
-Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt_20240308\zt.srcs\sources_1\bd\ZyboTank\ZyboTank.bd> 
-Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308/zt.srcs/sources_1/bd/ZyboTank/ui/bd_9efbae76.ui> 
-INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308/ip_upgrade.log'.
-upgrade_ip: Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 2833.230 ; gain = 152.422
-export_ip_user_files -of_objects [get_ips {ZyboTank_processing_system7_0_0 ZyboTank_lf_sampler_axi_maste_0_2 ZyboTank_proc_sys_reset_0_0 ZyboTank_system_ila_0_1 ZyboTank_axi_dma_1_0 ZyboTank_ila_1_1 ZyboTank_smartconnect_0_0 ZyboTank_ila_0_2}] -no_script -sync -force -quiet
-generate_target all [get_files  C:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308/zt.srcs/sources_1/bd/ZyboTank/ZyboTank.bd]
-ERROR: [BD 41-758] The following clock pins are not connected to a valid clock source: 
-/lf_sampler_axi_maste_0/Axi_ACLK
-
-ERROR: [BD 41-1031] Hdl Generation failed for the IP Integrator design C:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308/zt.srcs/sources_1/bd/ZyboTank/ZyboTank.bd 
-ERROR: [Common 17-39] 'generate_target' failed due to earlier errors.
-apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config { Clk {/PS/processing_system7_0/FCLK_CLK0 (100 MHz)} Freq {100} Ref_Clk0 {} Ref_Clk1 {} Ref_Clk2 {}}  [get_bd_pins lf_sampler_axi_maste_0/Axi_ACLK]
-validate_bd_design
-WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /axi_dma_1/S_AXIS_S2MM -filter {path == /PS/processing_system7_0/Data}'
-WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects /axi_dma_1/S_AXIS_S2MM'
-INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/smartconnect_0/S00_AXI' to master interface '/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
-INFO: [xilinx.com:ip:smartconnect:1.0-1] ZyboTank_smartconnect_0_0: SmartConnect ZyboTank_smartconnect_0_0 is in High-performance Mode.
-INFO: [PFM-62] PFM.AXI_PORT for PS/processing_system7_0/S_AXI_HP1 does not have an sptag specified, so is being assigned an auto generated name of HP
-INFO: [PFM-62] PFM.AXI_PORT for smartconnect_0/M01_AXI does not have an sptag specified, so is being assigned an auto generated name of GP
-WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ila_0/SLOT_0_AXI(1) and /axi_dma_1/M_AXI_S2MM(0)
-WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ila_0/SLOT_0_AXI(1) and /axi_dma_1/M_AXI_S2MM(0)
-WARNING: [BD 41-237] Bus Interface property WUSER_WIDTH does not match between /ila_0/SLOT_0_AXI(1) and /axi_dma_1/M_AXI_S2MM(0)
-WARNING: [BD 41-237] Bus Interface property RUSER_WIDTH does not match between /ila_0/SLOT_0_AXI(1) and /axi_dma_1/M_AXI_S2MM(0)
-WARNING: [BD 41-237] Bus Interface property BUSER_WIDTH does not match between /ila_0/SLOT_0_AXI(1) and /axi_dma_1/M_AXI_S2MM(0)
-WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ila_1/SLOT_0_AXI(1) and /smartconnect_0/M00_AXI(0)
-WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ila_1/SLOT_0_AXI(1) and /smartconnect_0/M00_AXI(0)
-WARNING: [BD 41-237] Bus Interface property WUSER_WIDTH does not match between /ila_1/SLOT_0_AXI(1) and /smartconnect_0/M00_AXI(0)
-WARNING: [BD 41-237] Bus Interface property RUSER_WIDTH does not match between /ila_1/SLOT_0_AXI(1) and /smartconnect_0/M00_AXI(0)
-WARNING: [BD 41-237] Bus Interface property BUSER_WIDTH does not match between /ila_1/SLOT_0_AXI(1) and /smartconnect_0/M00_AXI(0)
-validate_bd_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 3343.602 ; gain = 0.000
-save_bd_design
-Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt_20240308\zt.srcs\sources_1\bd\ZyboTank\ZyboTank.bd> 
-Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308/zt.srcs/sources_1/bd/ZyboTank/ui/bd_9efbae76.ui> 
-reset_run synth_1
-INFO: [Project 1-1161] Replacing file C:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308/zt.srcs/utils_1/imports/synth_1/ZyboTank_wrapper.dcp with file C:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308/zt.runs/synth_1/ZyboTank_wrapper.dcp
-launch_runs synth_1 -jobs 4
-INFO: [BD 41-1662] The design 'ZyboTank.bd' is already validated. Therefore parameter propagation will not be re-run.
-WARNING: [BD 41-2384] Width mismatch when connecting pin: '/ila_1/probe38'(1) to pin: '/PS/S_AXI_HP0_rid'(6) - Only lower order bits will be connected.
-WARNING: [BD 41-2384] Width mismatch when connecting pin: '/ila_1/probe20'(1) to pin: '/PS/S_AXI_HP0_bid'(6) - Only lower order bits will be connected.
-VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308/zt.gen/sources_1/bd/ZyboTank/synth/ZyboTank.vhd
-WARNING: [BD 41-2384] Width mismatch when connecting pin: '/ila_1/probe38'(1) to pin: '/PS/S_AXI_HP0_rid'(6) - Only lower order bits will be connected.
-WARNING: [BD 41-2384] Width mismatch when connecting pin: '/ila_1/probe20'(1) to pin: '/PS/S_AXI_HP0_bid'(6) - Only lower order bits will be connected.
-VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308/zt.gen/sources_1/bd/ZyboTank/sim/ZyboTank.vhd
-VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308/zt.gen/sources_1/bd/ZyboTank/hdl/ZyboTank_wrapper.vhd
-INFO: [BD 41-1029] Generation completed for the IP Integrator block PS/proc_sys_reset_0 .
-INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI_HP0'. A default connection has been created.
-INFO: [BD 41-1029] Generation completed for the IP Integrator block PS/processing_system7_0 .
-INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_1 .
-INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_0 .
-INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_1 .
-INFO: [BD 41-1029] Generation completed for the IP Integrator block lf_sampler_axi_maste_0 .
-Exporting to file c:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308/zt.gen/sources_1/bd/ZyboTank/ip/ZyboTank_smartconnect_0_0/bd_0/hw_handoff/ZyboTank_smartconnect_0_0.hwh
-Generated Hardware Definition File c:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308/zt.gen/sources_1/bd/ZyboTank/ip/ZyboTank_smartconnect_0_0/bd_0/synth/ZyboTank_smartconnect_0_0.hwdef
-INFO: [BD 41-1029] Generation completed for the IP Integrator block smartconnect_0 .
-Exporting to file c:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308/zt.gen/sources_1/bd/ZyboTank/ip/ZyboTank_system_ila_0_1/bd_0/hw_handoff/ZyboTank_system_ila_0_1.hwh
-Generated Hardware Definition File c:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308/zt.gen/sources_1/bd/ZyboTank/ip/ZyboTank_system_ila_0_1/bd_0/synth/ZyboTank_system_ila_0_1.hwdef
-INFO: [BD 41-1029] Generation completed for the IP Integrator block system_ila_0 .
-Exporting to file c:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308/zt.gen/sources_1/bd/ZyboTank/hw_handoff/ZyboTank.hwh
-Generated Hardware Definition File c:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308/zt.gen/sources_1/bd/ZyboTank/synth/ZyboTank.hwdef
-[Fri Mar 15 09:29:21 2024] Launched synth_1...
-Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308/zt.runs/synth_1/runme.log
-launch_runs: Time (s): cpu = 00:00:14 ; elapsed = 00:00:42 . Memory (MB): peak = 3343.602 ; gain = 0.000
-delete_runs "impl_1_copy_1"
-add_files -norecurse C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_axi_master_adapter.vhd
-update_compile_order -fileset sources_1
-set_property library zt_lib [get_files  C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_axi_master_adapter.vhd]
-update_compile_order -fileset sources_1
-update_module_reference ZyboTank_lf_sampler_axi_maste_0_2
-INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
-INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n_s' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
-INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi_ACLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
-INFO: [IP_Flow 19-4728] Bus Interface 'Axi_ACLK': Added interface parameter 'ASSOCIATED_BUSIF' with value 'Axi'.
-WARNING: [IP_Flow 19-11770] Clock interface 'Axi_ACLK' has no FREQ_HZ parameter.
-INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
-INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n_s' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
-INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi_ACLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
-INFO: [IP_Flow 19-4728] Bus Interface 'Axi_ACLK': Added interface parameter 'ASSOCIATED_BUSIF' with value 'Axi'.
-WARNING: [IP_Flow 19-11770] Clock interface 'Axi_ACLK' has no FREQ_HZ parameter.
-Upgrading 'C:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308/zt.srcs/sources_1/bd/ZyboTank/ZyboTank.bd'
-INFO: [IP_Flow 19-3420] Updated ZyboTank_lf_sampler_axi_maste_0_2 to use current project options
-Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt_20240308\zt.srcs\sources_1\bd\ZyboTank\ZyboTank.bd> 
-Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308/zt.srcs/sources_1/bd/ZyboTank/ui/bd_9efbae76.ui> 
-validate_bd_design
-WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /axi_dma_1/S_AXIS_S2MM -filter {path == /PS/processing_system7_0/Data}'
-WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects /axi_dma_1/S_AXIS_S2MM'
-INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/smartconnect_0/S00_AXI' to master interface '/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
-INFO: [xilinx.com:ip:smartconnect:1.0-1] ZyboTank_smartconnect_0_0: SmartConnect ZyboTank_smartconnect_0_0 is in High-performance Mode.
-INFO: [PFM-62] PFM.AXI_PORT for PS/processing_system7_0/S_AXI_HP1 does not have an sptag specified, so is being assigned an auto generated name of HP
-INFO: [PFM-62] PFM.AXI_PORT for smartconnect_0/M01_AXI does not have an sptag specified, so is being assigned an auto generated name of GP
-WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ila_0/SLOT_0_AXI(1) and /axi_dma_1/M_AXI_S2MM(0)
-WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ila_0/SLOT_0_AXI(1) and /axi_dma_1/M_AXI_S2MM(0)
-WARNING: [BD 41-237] Bus Interface property WUSER_WIDTH does not match between /ila_0/SLOT_0_AXI(1) and /axi_dma_1/M_AXI_S2MM(0)
-WARNING: [BD 41-237] Bus Interface property RUSER_WIDTH does not match between /ila_0/SLOT_0_AXI(1) and /axi_dma_1/M_AXI_S2MM(0)
-WARNING: [BD 41-237] Bus Interface property BUSER_WIDTH does not match between /ila_0/SLOT_0_AXI(1) and /axi_dma_1/M_AXI_S2MM(0)
-WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ila_1/SLOT_0_AXI(1) and /smartconnect_0/M00_AXI(0)
-WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ila_1/SLOT_0_AXI(1) and /smartconnect_0/M00_AXI(0)
-WARNING: [BD 41-237] Bus Interface property WUSER_WIDTH does not match between /ila_1/SLOT_0_AXI(1) and /smartconnect_0/M00_AXI(0)
-WARNING: [BD 41-237] Bus Interface property RUSER_WIDTH does not match between /ila_1/SLOT_0_AXI(1) and /smartconnect_0/M00_AXI(0)
-WARNING: [BD 41-237] Bus Interface property BUSER_WIDTH does not match between /ila_1/SLOT_0_AXI(1) and /smartconnect_0/M00_AXI(0)
-validate_bd_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 3343.602 ; gain = 0.000
-save_bd_design
-Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt_20240308\zt.srcs\sources_1\bd\ZyboTank\ZyboTank.bd> 
-Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308/zt.srcs/sources_1/bd/ZyboTank/ui/bd_9efbae76.ui> 
-close_project
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 15 13:45:31 2024...

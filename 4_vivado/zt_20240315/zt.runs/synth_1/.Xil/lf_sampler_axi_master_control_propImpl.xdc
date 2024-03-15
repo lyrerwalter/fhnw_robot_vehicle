@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:C:/FHNW/prj2/fhnw_zt/4_vivado/constraints/Zybo-Z7-Master.xdc rfile:../../../../constraints/Zybo-Z7-Master.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:14 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN P15   IOSTANDARD LVCMOS33 } [get_ports { fb_left   }]; #IO_L24P_T3_34 Sch=sw[1]
+set_property src_info {type:XDC file:1 line:15 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN W13   IOSTANDARD LVCMOS33 } [get_ports { fb_middle }]; #IO_L4N_T0_34 Sch=sw[2]
+set_property src_info {type:XDC file:1 line:16 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN T16   IOSTANDARD LVCMOS33 } [get_ports { fb_right  }]; #IO_L9P_T1_DQS_34 Sch=sw[3]

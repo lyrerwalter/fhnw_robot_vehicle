@@ -87,6 +87,7 @@ set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_vhdl -library zt_lib {
+  C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_axi_master_adapter.vhd
   C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_common_pkg.vhd
   C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_prescaler.vhd
   C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_sampler.vhd

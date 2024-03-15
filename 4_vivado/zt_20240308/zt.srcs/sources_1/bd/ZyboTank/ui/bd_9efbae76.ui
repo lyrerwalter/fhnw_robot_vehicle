@@ -2,43 +2,33 @@
    "ActiveEmotionalView":"Default View",
    "Default View_ScaleFactor":"0.549467",
    "Default View_TopLeft":"-413,-633",
-   "ExpandedHierarchyInLayout":"/PS",
+   "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
 #  -string -flagsOSRD
-preplace port DDR -pg 1 -lvl 5 -x 2090 -y -320 -defaultsOSRD
-preplace port FIXED_IO -pg 1 -lvl 5 -x 2090 -y -300 -defaultsOSRD
+preplace port DDR -pg 1 -lvl 5 -x 1380 -y -320 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 1380 -y -300 -defaultsOSRD
 preplace port port-id_fb_right_0 -pg 1 -lvl 0 -x -130 -y 210 -defaultsOSRD
 preplace port port-id_fb_middle_0 -pg 1 -lvl 0 -x -130 -y 230 -defaultsOSRD
 preplace port port-id_fb_left_0 -pg 1 -lvl 0 -x -130 -y 250 -defaultsOSRD
-preplace inst PS -pg 1 -lvl 3 -x 770 -y -288 -defaultsOSRD
-preplace inst axi_dma_1 -pg 1 -lvl 3 -x 770 -y 484 -defaultsOSRD
-preplace inst ila_0 -pg 1 -lvl 4 -x 1966 -y 170 -defaultsOSRD
-preplace inst ila_1 -pg 1 -lvl 4 -x 1966 -y -160 -defaultsOSRD
-preplace inst smartconnect_0 -pg 1 -lvl 3 -x 770 -y 174 -defaultsOSRD
+preplace inst PS -pg 1 -lvl 3 -x 770 -y -290 -defaultsOSRD
+preplace inst axi_dma_1 -pg 1 -lvl 3 -x 770 -y 310 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 4 -x 1253 -y 170 -defaultsOSRD
+preplace inst ila_1 -pg 1 -lvl 4 -x 1253 -y -160 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 3 -x 770 -y 0 -defaultsOSRD
 preplace inst system_ila_0 -pg 1 -lvl 2 -x 420 -y 500 -defaultsOSRD
 preplace inst lf_sampler_axi_maste_0 -pg 1 -lvl 1 -x 190 -y 220 -defaultsOSRD
-preplace inst PS|proc_sys_reset_0 -pg 1 -lvl 2 -x 1320 -y -148 -defaultsOSRD
-preplace inst PS|processing_system7_0 -pg 1 -lvl 1 -x 910 -y -258 -defaultsOSRD
 preplace netloc fb_left_0_1 1 0 1 -110 250n
 preplace netloc fb_middle_0_1 1 0 1 -110 230n
 preplace netloc fb_right_0_1 1 0 1 -110 210n
-preplace netloc proc_sys_reset_0_peripheral_aresetn 1 0 4 70 330 300 330 540 254 1640
-preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 80 320 320 320 530 264 1660
-preplace netloc axi_dma_1_M_AXI_S2MM 1 2 2 550 274 1670
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 0 4 70 330 300 330 580 80 940
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 80 320 320 320 590 90 960
+preplace netloc axi_dma_1_M_AXI_S2MM 1 2 2 600 100 940
 preplace netloc lf_sampler_axi_maste_0_Axi 1 1 2 310 280 520
-preplace netloc processing_system7_0_DDR 1 3 2 1650 -320 N
-preplace netloc processing_system7_0_FIXED_IO 1 3 2 1670 -300 N
-preplace netloc smartconnect_0_M00_AXI 1 2 2 550 14 1650
-preplace netloc PS|proc_sys_reset_0_peripheral_aresetn 1 2 1 N -108
-preplace netloc PS|processing_system7_0_FCLK_CLK0 1 0 3 680 -168 1140 -248 NJ
-preplace netloc PS|processing_system7_0_FCLK_RESET0_N 1 1 1 1150 -228n
-preplace netloc PS|Conn1 1 0 1 N -258
-preplace netloc PS|processing_system7_0_DDR 1 1 2 N -288 NJ
-preplace netloc PS|processing_system7_0_FIXED_IO 1 1 2 N -268 NJ
-levelinfo -pg 1 -130 190 420 770 1966 2090
-levelinfo -hier PS * 910 1320 *
+preplace netloc processing_system7_0_DDR 1 3 2 N -320 N
+preplace netloc processing_system7_0_FIXED_IO 1 3 2 N -300 N
+preplace netloc smartconnect_0_M00_AXI 1 2 2 600 -160 950
+levelinfo -pg 1 -130 190 420 770 1253 1380
 pagesize -pg 1 -db -bbox -sgen -260 -780 2440 1560
-pagesize -hier PS -db -bbox -sgen 650 -348 1520 -48
 "
 }
 {

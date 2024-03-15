@@ -56,6 +56,7 @@ begin
         if rising_edge(Axi_ACLK) then
 		    -- Line data conversion
 		    Axi_TDATA      <= (fb_left, fb_middle, fb_right, OTHERS => '0');
+			Axi_TLAST      <= '1';
 			
 			if Axi_TREADY = '1' then
 				Axi_TVALID <= line_valid;
@@ -67,9 +68,9 @@ begin
 				--	line_right_u  <= '0';
 				--	line_middle_u <= '0';
 				--	line_left_u   <= '0';
+				Axi_TDATA  <= (OTHERS => '0');
 				Axi_TVALID <= '0';
-				Axi_TDATA <= (OTHERS => '0');
-				Axi_TVALID <= '1';
+				Axi_TLAST  <= '0';
 			end if;
         end if;    
     end process;

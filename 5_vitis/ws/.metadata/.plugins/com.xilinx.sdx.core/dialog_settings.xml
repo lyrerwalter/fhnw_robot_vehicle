@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="sdx.custom.platform.repository.locations" value="C:\FHNW\prj2\fhnw_zt\5_vitis\ws\zybo_tank\export\zybo_tank"/>
+	<item key="sdx.custom.platform.repository.locations" value="C:\FHNW\prj2\fhnw_zt\5_vitis\ws\zybo;C:\FHNW\prj2\fhnw_zt\5_vitis\ws\zybo\export\zybo"/>
 </section>

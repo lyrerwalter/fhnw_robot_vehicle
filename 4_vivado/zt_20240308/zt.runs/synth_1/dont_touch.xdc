@@ -21,9 +21,6 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZyboTank_il
 # IP: bd/ZyboTank/ip/ZyboTank_ila_1_1/ZyboTank_ila_1_1.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZyboTank_ila_1_1 || ORIG_REF_NAME==ZyboTank_ila_1_1} -quiet] -quiet
 
-# IP: bd/ZyboTank/ip/ZyboTank_lf_sampler_axi_maste_0_2/ZyboTank_lf_sampler_axi_maste_0_2.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZyboTank_lf_sampler_axi_maste_0_2 || ORIG_REF_NAME==ZyboTank_lf_sampler_axi_maste_0_2} -quiet] -quiet
-
 # IP: bd/ZyboTank/ip/ZyboTank_smartconnect_0_0/ZyboTank_smartconnect_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZyboTank_smartconnect_0_0 || ORIG_REF_NAME==ZyboTank_smartconnect_0_0} -quiet] -quiet
 
@@ -74,6 +71,9 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==bd_22c6_ila
 
 # IP: c:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308/zt.gen/sources_1/bd/ZyboTank/ip/ZyboTank_system_ila_0_1/bd_0/ip/ip_1/bd_22c6_g_inst_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==bd_22c6_g_inst_0 || ORIG_REF_NAME==bd_22c6_g_inst_0} -quiet] -quiet
+
+# IP: bd/ZyboTank/ip/ZyboTank_lf_sampler_axi_maste_0_2/ZyboTank_lf_sampler_axi_maste_0_2.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZyboTank_lf_sampler_axi_maste_0_2 || ORIG_REF_NAME==ZyboTank_lf_sampler_axi_maste_0_2} -quiet] -quiet
 
 # XDC: c:/FHNW/prj2/fhnw_zt/4_vivado/zt_20240308/zt.gen/sources_1/bd/ZyboTank/ip/ZyboTank_proc_sys_reset_0_0/ZyboTank_proc_sys_reset_0_0_board.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==ZyboTank_proc_sys_reset_0_0 || ORIG_REF_NAME==ZyboTank_proc_sys_reset_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet

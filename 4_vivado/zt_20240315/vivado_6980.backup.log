@@ -1,0 +1,121 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Fri Mar 15 10:02:08 2024
+# Process ID: 6980
+# Current directory: C:/FHNW/prj2/fhnw_zt/4_vivado/zt
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20544 C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.xpr
+# Log file: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/vivado.log
+# Journal file: C:/FHNW/prj2/fhnw_zt/4_vivado/zt\vivado.jou
+# Running On: DESKTOP-EOOIIGE, OS: Windows, CPU Frequency: 1996 MHz, CPU Physical cores: 8, Host memory: 16539 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2515.559 ; gain = 397.473
+update_compile_order -fileset sources_1
+open_bd_design {C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd}
+Reading block design file <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - smartconnect_0
+Adding component instance block -- xilinx.com:module_ref:lf_sampler_axi_master_control:1.0 - lf_sampler_axi_maste_0
+Successfully read diagram <bd> from block design file <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd>
+validate_bd_design -force
+WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /PS/processing_system7_0 -filter {path == /PS/processing_system7_0/Data}'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects {}'
+INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/DMA/smartconnect_0/S00_AXI' to master interface '/DMA/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] bd_smartconnect_0_0: SmartConnect bd_smartconnect_0_0 is in High-performance Mode.
+validate_bd_design: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 2601.023 ; gain = 30.719
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:smartconnect:1.0 smartconnect_0
+endgroup
+delete_bd_objs [get_bd_intf_nets lf_sampler_axi_maste_0_Axi]
+delete_bd_objs [get_bd_cells smartconnect_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_interconnect:2.1 DMA/axi_interconnect_0
+endgroup
+set_property location {1 143 -51} [get_bd_cells DMA/axi_interconnect_0]
+connect_bd_net [get_bd_pins DMA/axi_resetn_0] [get_bd_pins DMA/axi_interconnect_0/ARESETN]
+startgroup
+set_property CONFIG.NUM_MI {1} [get_bd_cells DMA/axi_interconnect_0]
+endgroup
+delete_bd_objs [get_bd_intf_nets DMA/Conn2]
+undo
+INFO: [Common 17-17] undo 'delete_bd_objs [get_bd_intf_nets DMA/Conn2]'
+undo
+INFO: [Common 17-17] undo 'endgroup'
+INFO: [Common 17-17] undo 'set_property CONFIG.NUM_MI {1} [get_bd_cells DMA/axi_interconnect_0]'
+INFO: [Common 17-17] undo 'startgroup'
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins DMA/axi_resetn_0] [get_bd_pins DMA/axi_interconnect_0/ARESETN]'
+connect_bd_intf_net [get_bd_intf_pins lf_sampler_axi_maste_0/Axi] -boundary_type upper [get_bd_intf_pins DMA/S_AXIS_S2MM_0]
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config { Clk {/PS/processing_system7_0/FCLK_CLK0 (100 MHz)} Freq {100} Ref_Clk0 {} Ref_Clk1 {} Ref_Clk2 {}}  [get_bd_pins DMA/axi_interconnect_0/ACLK]
+connect_bd_intf_net -boundary_type upper [get_bd_intf_pins DMA/axi_interconnect_0/M00_AXI] [get_bd_intf_pins DMA/axi_dma_0/S_AXI_LITE]
+startgroup
+set_property -dict [list \
+  CONFIG.ENABLE_ADVANCED_OPTIONS {1} \
+  CONFIG.NUM_MI {1} \
+] [get_bd_cells DMA/axi_interconnect_0]
+endgroup
+connect_bd_net [get_bd_pins DMA/s_axi_lite_aclk_0] [get_bd_pins DMA/axi_interconnect_0/S00_ACLK]
+set_property location {38 -7} [get_bd_pins DMA/s_axi_lite_aclk_0]
+undo
+INFO: [Common 17-17] undo 'set_property location {38 -7} [get_bd_pins DMA/s_axi_lite_aclk_0]'
+set_property location {-4 46} [get_bd_pins DMA/s_axi_lite_aclk_0]
+undo
+INFO: [Common 17-17] undo 'set_property location {-4 46} [get_bd_pins DMA/s_axi_lite_aclk_0]'
+connect_bd_net [get_bd_pins DMA/s_axi_lite_aclk_0] [get_bd_pins DMA/axi_interconnect_0/M00_ACLK]
+connect_bd_net [get_bd_pins DMA/axi_resetn_0] [get_bd_pins DMA/axi_interconnect_0/S00_ARESETN]
+connect_bd_net [get_bd_pins DMA/axi_resetn_0] [get_bd_pins DMA/axi_interconnect_0/M00_ARESETN]
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins DMA/axi_interconnect_0/S00_AXI]
+endgroup
+delete_bd_objs [get_bd_intf_nets S00_AXI_0_1] [get_bd_intf_ports S00_AXI_0]
+delete_bd_objs [get_bd_intf_nets lf_sampler_axi_maste_0_Axi]
+connect_bd_intf_net [get_bd_intf_pins lf_sampler_axi_maste_0/Axi] -boundary_type upper [get_bd_intf_pins DMA/S_AXIS_S2MM_0]
+delete_bd_objs [get_bd_intf_nets DMA/Conn3] [get_bd_intf_nets DMA/axi_interconnect_0_M00_AXI] [get_bd_cells DMA/axi_interconnect_0]
+delete_bd_objs [get_bd_intf_pins DMA/S00_AXI_0]
+save_bd_design
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_1090342.ui> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_cab43fb6.ui> 
+validate_bd_design
+WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /PS/proc_sys_reset_0 -filter {path == /PS/processing_system7_0/Data}'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects /PS/proc_sys_reset_0'
+INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/DMA/smartconnect_0/S00_AXI' to master interface '/DMA/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] bd_smartconnect_0_0: SmartConnect bd_smartconnect_0_0 is in High-performance Mode.
+save_bd_design
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_1090342.ui> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_cab43fb6.ui> 
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/utils_1/imports/synth_1/lf_sampler_axi_master_control.dcp with file C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/synth_1/lf_sampler_axi_master_control.dcp
+launch_runs synth_1 -jobs 4
+[Fri Mar 15 10:50:59 2024] Launched synth_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/synth_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 15 11:25:51 2024...

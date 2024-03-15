@@ -1,0 +1,477 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sun Mar 10 17:52:40 2024
+# Process ID: 4328
+# Current directory: C:/FHNW/prj2/fhnw_zt/4_vivado/zt
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10896 C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.xpr
+# Log file: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/vivado.log
+# Journal file: C:/FHNW/prj2/fhnw_zt/4_vivado/zt\vivado.jou
+# Running On: DESKTOP-EOOIIGE, OS: Windows, CPU Frequency: 1996 MHz, CPU Physical cores: 8, Host memory: 16539 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 2469.816 ; gain = 403.898
+update_compile_order -fileset sources_1
+open_bd_design {C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd}
+Reading block design file <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd>...
+Adding component instance block -- xilinx.com:module_ref:lf_sampler_axi_master_control:1.0 - lf_sampler_axi_maste_0
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - smartconnect_0
+Successfully read diagram <bd> from block design file <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd>
+open_bd_design: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 2518.309 ; gain = 13.070
+validate_bd_design -force
+CRITICAL WARNING: [BD 41-967] AXI interface pin /lf_sampler_axi_maste_0/Axi is not associated to any clock pin. It may not work correctly.
+WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /PS/processing_system7_0 -filter {path == /PS/processing_system7_0/Data}'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects {}'
+INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/DMA/smartconnect_0/S00_AXI' to master interface '/DMA/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] bd_smartconnect_0_0: SmartConnect bd_smartconnect_0_0 is in High-performance Mode.
+save_bd_design
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_1090342.ui> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_a7879645.ui> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_cab43fb6.ui> 
+launch_runs synth_1 -jobs 4
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Sun Mar 10 18:08:53 2024] Launched synth_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/synth_1/runme.log
+validate_bd_design -force
+CRITICAL WARNING: [BD 41-967] AXI interface pin /lf_sampler_axi_maste_0/Axi is not associated to any clock pin. It may not work correctly.
+WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /PS/processing_system7_0 -filter {path == /PS/processing_system7_0/Data}'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects {}'
+INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/DMA/smartconnect_0/S00_AXI' to master interface '/DMA/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] bd_smartconnect_0_0: SmartConnect bd_smartconnect_0_0 is in High-performance Mode.
+save_bd_design
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_1090342.ui> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_a7879645.ui> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_cab43fb6.ui> 
+reset_run synth_1
+INFO: [Project 1-1160] Copying file C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/synth_1/lf_sampler_axi_master_control.dcp to C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs synth_1 -jobs 4
+[Sun Mar 10 18:11:46 2024] Launched synth_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Sun Mar 10 18:13:03 2024] Launched impl_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Mar 10 18:14:14 2024] Launched impl_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/impl_1/runme.log
+update_module_reference bd_lf_sampler_axi_maste_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n_s' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi_CLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'Axi_CLK': Added interface parameter 'ASSOCIATED_BUSIF' with value 'Axi'.
+WARNING: [IP_Flow 19-11770] Clock interface 'Axi_CLK' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n_s' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi_CLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'Axi_CLK': Added interface parameter 'ASSOCIATED_BUSIF' with value 'Axi'.
+WARNING: [IP_Flow 19-11770] Clock interface 'Axi_CLK' has no FREQ_HZ parameter.
+Upgrading 'C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd'
+INFO: [IP_Flow 19-3420] Updated bd_lf_sampler_axi_maste_0_0 to use current project options
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'Axi_CLK'
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'bd_lf_sampler_axi_maste_0_0'. These changes may impact your design.
+CRITICAL WARNING: [Coretcl 2-1280] The upgrade of 'bd_lf_sampler_axi_maste_0_0' has identified issues that may require user intervention. Please verify that the instance is correctly configured, and review any upgrade messages.
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_1090342.ui> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_a7879645.ui> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_cab43fb6.ui> 
+connect_bd_net [get_bd_pins lf_sampler_axi_maste_0/Axi_CLK] [get_bd_pins PS/FCLK_CLK0_0]
+validate_bd_design
+WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /PS/processing_system7_0 -filter {path == /PS/processing_system7_0/Data}'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects {}'
+INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/DMA/smartconnect_0/S00_AXI' to master interface '/DMA/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] bd_smartconnect_0_0: SmartConnect bd_smartconnect_0_0 is in High-performance Mode.
+update_module_reference bd_lf_sampler_axi_maste_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n_s' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi_ACLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'Axi_ACLK': Added interface parameter 'ASSOCIATED_BUSIF' with value 'Axi'.
+WARNING: [IP_Flow 19-11770] Clock interface 'Axi_ACLK' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n_s' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi_ACLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'Axi_ACLK': Added interface parameter 'ASSOCIATED_BUSIF' with value 'Axi'.
+WARNING: [IP_Flow 19-11770] Clock interface 'Axi_ACLK' has no FREQ_HZ parameter.
+Upgrading 'C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd'
+INFO: [IP_Flow 19-3420] Updated bd_lf_sampler_axi_maste_0_0 to use current project options
+WARNING: [IP_Flow 19-4700] Upgrade has removed port 'Axi_CLK'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'Axi_ACLK'
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'bd_lf_sampler_axi_maste_0_0'. These changes may impact your design.
+CRITICAL WARNING: [BD 41-1167] The pin 'Axi_CLK' is not found on the upgraded version of the cell '/lf_sampler_axi_maste_0'. Its connection to the net 'PS_FCLK_CLK0_0' has been removed.
+CRITICAL WARNING: [Coretcl 2-1280] The upgrade of 'bd_lf_sampler_axi_maste_0_0' has identified issues that may require user intervention. Please verify that the instance is correctly configured, and review any upgrade messages.
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_1090342.ui> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_a7879645.ui> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_cab43fb6.ui> 
+connect_bd_net [get_bd_pins lf_sampler_axi_maste_0/Axi_ACLK] [get_bd_pins PS/FCLK_CLK0_0]
+save_bd_design
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_1090342.ui> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_a7879645.ui> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_cab43fb6.ui> 
+validate_bd_design
+WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /PS/processing_system7_0 -filter {path == /PS/processing_system7_0/Data}'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects {}'
+INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/DMA/smartconnect_0/S00_AXI' to master interface '/DMA/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] bd_smartconnect_0_0: SmartConnect bd_smartconnect_0_0 is in High-performance Mode.
+disconnect_bd_net /PS_FCLK_CLK0_0 [get_bd_pins lf_sampler_axi_maste_0/Axi_ACLK]
+update_module_reference bd_lf_sampler_axi_maste_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n_s' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi_ACLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'Axi_ACLK': Added interface parameter 'ASSOCIATED_BUSIF' with value 'Axi'.
+WARNING: [IP_Flow 19-11770] Clock interface 'Axi_ACLK' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n_s' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi_ACLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'Axi_ACLK': Added interface parameter 'ASSOCIATED_BUSIF' with value 'Axi'.
+WARNING: [IP_Flow 19-11770] Clock interface 'Axi_ACLK' has no FREQ_HZ parameter.
+Upgrading 'C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd'
+INFO: [IP_Flow 19-3420] Updated bd_lf_sampler_axi_maste_0_0 to use current project options
+WARNING: [IP_Flow 19-4700] Upgrade has removed port 'clk_s'
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'bd_lf_sampler_axi_maste_0_0'. These changes may impact your design.
+CRITICAL WARNING: [BD 41-1167] The pin 'clk_s' is not found on the upgraded version of the cell '/lf_sampler_axi_maste_0'. Its connection to the net 'PS_FCLK_CLK0_0' has been removed.
+CRITICAL WARNING: [Coretcl 2-1280] The upgrade of 'bd_lf_sampler_axi_maste_0_0' has identified issues that may require user intervention. Please verify that the instance is correctly configured, and review any upgrade messages.
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_1090342.ui> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_a7879645.ui> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_cab43fb6.ui> 
+connect_bd_net [get_bd_pins lf_sampler_axi_maste_0/Axi_ACLK] [get_bd_pins PS/FCLK_CLK0_0]
+save_bd_design
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_1090342.ui> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_a7879645.ui> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_cab43fb6.ui> 
+validate_bd_design
+WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /PS/processing_system7_0 -filter {path == /PS/processing_system7_0/Data}'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects {}'
+INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/DMA/smartconnect_0/S00_AXI' to master interface '/DMA/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] bd_smartconnect_0_0: SmartConnect bd_smartconnect_0_0 is in High-performance Mode.
+save_bd_design
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_1090342.ui> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_a7879645.ui> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_cab43fb6.ui> 
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/utils_1/imports/synth_1/lf_sampler_axi_master_control.dcp with file C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/synth_1/lf_sampler_axi_master_control.dcp
+launch_runs synth_1 -jobs 4
+[Sun Mar 10 18:19:46 2024] Launched synth_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Sun Mar 10 18:25:18 2024] Launched impl_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Mar 10 18:26:41 2024] Launched impl_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/impl_1/runme.log
+startgroup
+set_property CONFIG.c_include_s2mm_dre {1} [get_bd_cells DMA/axi_dma_0]
+endgroup
+validate_bd_design
+WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /PS/processing_system7_0 -filter {path == /PS/processing_system7_0/Data}'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects {}'
+INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/DMA/smartconnect_0/S00_AXI' to master interface '/DMA/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] bd_smartconnect_0_0: SmartConnect bd_smartconnect_0_0 is in High-performance Mode.
+validate_bd_design -force
+WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /PS/processing_system7_0 -filter {path == /PS/processing_system7_0/Data}'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects {}'
+INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/DMA/smartconnect_0/S00_AXI' to master interface '/DMA/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] bd_smartconnect_0_0: SmartConnect bd_smartconnect_0_0 is in High-performance Mode.
+save_bd_design
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_1090342.ui> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_a7879645.ui> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_cab43fb6.ui> 
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/utils_1/imports/synth_1/lf_sampler_axi_master_control.dcp with file C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/synth_1/lf_sampler_axi_master_control.dcp
+launch_runs synth_1 -jobs 4
+[Sun Mar 10 18:32:48 2024] Launched synth_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Sun Mar 10 18:34:25 2024] Launched impl_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 3082.297 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 3755.266 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 3755.266 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3755.266 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 3863.945 ; gain = 1123.445
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+close_project
+open_project C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+update_compile_order -fileset sources_1
+open_bd_design {C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd}
+Reading block design file <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - smartconnect_0
+Adding component instance block -- xilinx.com:module_ref:lf_sampler_axi_master_control:1.0 - lf_sampler_axi_maste_0
+Successfully read diagram <bd> from block design file <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd>
+validate_bd_design -force
+WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /PS/processing_system7_0 -filter {path == /PS/processing_system7_0/Data}'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects {}'
+INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/DMA/smartconnect_0/S00_AXI' to master interface '/DMA/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] bd_smartconnect_0_0: SmartConnect bd_smartconnect_0_0 is in High-performance Mode.
+save_bd_design
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+close_project
+open_project C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+update_compile_order -fileset sources_1
+open_bd_design {C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd}
+Reading block design file <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - smartconnect_0
+Adding component instance block -- xilinx.com:module_ref:lf_sampler_axi_master_control:1.0 - lf_sampler_axi_maste_0
+Successfully read diagram <bd> from block design file <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd>
+validate_bd_design -force
+WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /PS/processing_system7_0 -filter {path == /PS/processing_system7_0/Data}'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects {}'
+INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/DMA/smartconnect_0/S00_AXI' to master interface '/DMA/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] bd_smartconnect_0_0: SmartConnect bd_smartconnect_0_0 is in High-performance Mode.
+save_bd_design
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/utils_1/imports/synth_1/lf_sampler_axi_master_control.dcp with file C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/synth_1/lf_sampler_axi_master_control.dcp
+launch_runs synth_1 -jobs 4
+[Sun Mar 10 20:12:03 2024] Launched synth_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Sun Mar 10 20:13:56 2024] Launched impl_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Mar 10 20:15:18 2024] Launched impl_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/impl_1/runme.log
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'if' [C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_sampler_axi_master_control.vhd:82]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'else' [C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_sampler_axi_master_control.vhd:84]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'if' [C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_sampler_axi_master_control.vhd:86]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'if' [C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_sampler_axi_master_control.vhd:82]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'else' [C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_sampler_axi_master_control.vhd:84]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'if' [C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_sampler_axi_master_control.vhd:86]
+update_module_reference bd_lf_sampler_axi_maste_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n_s' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi_ACLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'Axi_ACLK': Added interface parameter 'ASSOCIATED_BUSIF' with value 'Axi'.
+WARNING: [IP_Flow 19-11770] Clock interface 'Axi_ACLK' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n_s' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi_ACLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'Axi_ACLK': Added interface parameter 'ASSOCIATED_BUSIF' with value 'Axi'.
+WARNING: [IP_Flow 19-11770] Clock interface 'Axi_ACLK' has no FREQ_HZ parameter.
+Upgrading 'C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd'
+INFO: [IP_Flow 19-3420] Updated bd_lf_sampler_axi_maste_0_0 to use current project options
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_1090342.ui> 
+validate_bd_design
+WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /PS/processing_system7_0 -filter {path == /PS/processing_system7_0/Data}'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects {}'
+INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/DMA/smartconnect_0/S00_AXI' to master interface '/DMA/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] bd_smartconnect_0_0: SmartConnect bd_smartconnect_0_0 is in High-performance Mode.
+save_bd_design
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/utils_1/imports/synth_1/lf_sampler_axi_master_control.dcp with file C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/synth_1/lf_sampler_axi_master_control.dcp
+launch_runs synth_1 -jobs 4
+[Sun Mar 10 20:20:30 2024] Launched synth_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Sun Mar 10 20:22:01 2024] Launched impl_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Mar 10 20:24:16 2024] Launched impl_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/impl_1/runme.log
+update_module_reference bd_lf_sampler_axi_maste_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n_s' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi_ACLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'Axi_ACLK': Added interface parameter 'ASSOCIATED_BUSIF' with value 'Axi'.
+WARNING: [IP_Flow 19-11770] Clock interface 'Axi_ACLK' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n_s' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi_ACLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'Axi_ACLK': Added interface parameter 'ASSOCIATED_BUSIF' with value 'Axi'.
+WARNING: [IP_Flow 19-11770] Clock interface 'Axi_ACLK' has no FREQ_HZ parameter.
+Upgrading 'C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd'
+INFO: [IP_Flow 19-3420] Updated bd_lf_sampler_axi_maste_0_0 to use current project options
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_1090342.ui> 
+validate_bd_design
+WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /PS/processing_system7_0 -filter {path == /PS/processing_system7_0/Data}'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects {}'
+INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/DMA/smartconnect_0/S00_AXI' to master interface '/DMA/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] bd_smartconnect_0_0: SmartConnect bd_smartconnect_0_0 is in High-performance Mode.
+save_bd_design
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_1090342.ui> 
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: lf_sampler_axi_master_control
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 4022.422 ; gain = 120.102
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'lf_sampler_axi_master_control' [C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_sampler_axi_master_control.vhd:50]
+INFO: [Synth 8-638] synthesizing module 'lf_sampler_control' [C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_sampler_control.vhd:39]
+	Parameter c_freq_div bound to: 8333 - type: integer 
+	Parameter C_SAMPLE_LEN bound to: 40 - type: integer 
+	Parameter C_SAMPLE_OK bound to: 30 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lf_prescaler' [C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_prescaler.vhd:18]
+	Parameter c_freq_div bound to: 8333 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lf_prescaler' (0#1) [C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_prescaler.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'lf_sampler' [C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_sampler.vhd:30]
+	Parameter C_SAMPLE_LEN bound to: 40 - type: integer 
+	Parameter C_SAMPLE_OK bound to: 30 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lf_sampler' (0#1) [C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_sampler.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'lf_sampler_control' (0#1) [C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_sampler_control.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'lf_sampler_axi_master_control' (0#1) [C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_sampler_axi_master_control.vhd:50]
+WARNING: [Synth 8-3917] design lf_sampler_axi_master_control has port Axi_TLAST driven by constant 1
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 4113.270 ; gain = 210.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 4131.074 ; gain = 228.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 4131.074 ; gain = 228.754
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 4131.074 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/FHNW/prj2/fhnw_zt/4_vivado/constraints/Zybo-Z7-Master.xdc]
+Finished Parsing XDC File [C:/FHNW/prj2/fhnw_zt/4_vivado/constraints/Zybo-Z7-Master.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4243.777 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 4253.074 ; gain = 350.754
+10 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 4253.074 ; gain = 350.754
+report_methodology -name ultrafast_methodology_1
+Command: report_methodology -name ultrafast_methodology_1
+INFO: [DRC 23-133] Running Methodology with 2 threads
+report_methodology completed successfully
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'C_AXI_DATA_WIDTH' [C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_sampler_axi_master_control.vhd:85]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'C_AXI_DATA_WIDTH' [C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_sampler_axi_master_control.vhd:85]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'Axi_TVALID' [C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_sampler_axi_master_control.vhd:91]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'Axi_TVALID' [C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_sampler_axi_master_control.vhd:91]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'Axi_TVALID' [C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_sampler_axi_master_control.vhd:91]
+add_files -norecurse C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_axi_master_adapter.vhd
+update_compile_order -fileset sources_1
+set_property library zt_lib [get_files  C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_axi_master_adapter.vhd]
+update_compile_order -fileset sources_1
+open_bd_design {C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd}
+update_module_reference bd_lf_sampler_axi_maste_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n_s' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi_ACLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'Axi_ACLK': Added interface parameter 'ASSOCIATED_BUSIF' with value 'Axi'.
+WARNING: [IP_Flow 19-11770] Clock interface 'Axi_ACLK' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n_s' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi_ACLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'Axi_ACLK': Added interface parameter 'ASSOCIATED_BUSIF' with value 'Axi'.
+WARNING: [IP_Flow 19-11770] Clock interface 'Axi_ACLK' has no FREQ_HZ parameter.
+Upgrading 'C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd'
+INFO: [IP_Flow 19-3420] Updated bd_lf_sampler_axi_maste_0_0 to use current project options
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_1090342.ui> 
+update_module_reference bd_lf_sampler_axi_maste_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n_s' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi_ACLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'Axi_ACLK': Added interface parameter 'ASSOCIATED_BUSIF' with value 'Axi'.
+WARNING: [IP_Flow 19-11770] Clock interface 'Axi_ACLK' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n_s' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Axi_ACLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'Axi_ACLK': Added interface parameter 'ASSOCIATED_BUSIF' with value 'Axi'.
+WARNING: [IP_Flow 19-11770] Clock interface 'Axi_ACLK' has no FREQ_HZ parameter.
+Upgrading 'C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd'
+INFO: [IP_Flow 19-3420] Updated bd_lf_sampler_axi_maste_0_0 to use current project options
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_1090342.ui> 
+validate_bd_design
+WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /PS/processing_system7_0 -filter {path == /PS/processing_system7_0/Data}'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects {}'
+INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/DMA/smartconnect_0/S00_AXI' to master interface '/DMA/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] bd_smartconnect_0_0: SmartConnect bd_smartconnect_0_0 is in High-performance Mode.
+save_bd_design
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/utils_1/imports/synth_1/lf_sampler_axi_master_control.dcp with file C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/synth_1/lf_sampler_axi_master_control.dcp
+launch_runs synth_1 -jobs 4
+[Sun Mar 10 21:45:52 2024] Launched synth_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Sun Mar 10 21:46:51 2024] Launched impl_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Mar 10 21:48:00 2024] Launched impl_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/impl_1/runme.log
+open_bd_design {C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd}
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 10 21:50:33 2024...

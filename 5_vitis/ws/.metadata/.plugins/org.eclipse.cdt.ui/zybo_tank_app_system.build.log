@@ -1,6 +1,0 @@
-10:30:46 **** Build of configuration Emulation-SW for project zybo_tank_app_system ****
-make all 
-Package not supported, if the system project is in Emulation Target, and only Baremetal Or Embedded Linux Applications present
-
-10:30:46 Build Finished (took 136ms)
-
