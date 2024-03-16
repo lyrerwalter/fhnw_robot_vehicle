@@ -1,0 +1,53 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.717936",
+   "Default View_TopLeft":"-382,-625",
+   "ExpandedHierarchyInLayout":"/PS|/DMA",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 2 -x 1780 -y -290 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 2 -x 1780 -y -270 -defaultsOSRD
+preplace port port-id_fb_right_0 -pg 1 -lvl 0 -x -10 -y 430 -defaultsOSRD
+preplace port port-id_fb_middle_0 -pg 1 -lvl 0 -x -10 -y 450 -defaultsOSRD
+preplace port port-id_fb_left_0 -pg 1 -lvl 0 -x -10 -y 470 -defaultsOSRD
+preplace inst PS -pg 1 -lvl 1 -x 840 -y -290 -defaultsOSRD
+preplace inst DMA -pg 1 -lvl 1 -x 840 -y 120 -defaultsOSRD
+preplace inst lf_sampler_axi_master_0 -pg 1 -lvl 1 -x 840 -y 474 -defaultsOSRD
+preplace inst DMA|axi_dma_0 -pg 1 -lvl 1 -x 940 -y 170 -defaultsOSRD
+preplace inst DMA|smartconnect_0 -pg 1 -lvl 2 -x 1260 -y 170 -defaultsOSRD
+preplace inst PS|processing_system7_0 -pg 1 -lvl 1 -x 990 -y -260 -defaultsOSRD
+preplace inst PS|proc_sys_reset_0 -pg 1 -lvl 2 -x 1400 -y -150 -defaultsOSRD
+preplace netloc PS_FCLK_CLK0_0 1 0 2 570 10 1740
+preplace netloc PS_aresetn_0 1 0 2 580 20 1720
+preplace netloc fb_right_0_1 1 0 1 10 430n
+preplace netloc fb_middle_0_1 1 0 1 10 450n
+preplace netloc fb_left_0_1 1 0 1 10 470n
+preplace netloc processing_system7_0_DDR 1 1 1 N -290
+preplace netloc processing_system7_0_FIXED_IO 1 1 1 N -270
+preplace netloc lf_sampler_axi_master_0_M00_AXIS 1 0 2 590 40 1720
+preplace netloc S_AXI_HP0_0_1 1 0 2 590 0 1730
+preplace netloc DMA|PS_FCLK_CLK0_0 1 0 2 770 270 1110
+preplace netloc DMA|PS_aresetn_0 1 0 2 760 280 1120
+preplace netloc DMA|Conn1 1 0 1 N 150
+preplace netloc DMA|Conn2 1 2 1 N 170
+preplace netloc DMA|axi_dma_0_M_AXI_S2MM 1 1 1 N 150
+preplace netloc PS|proc_sys_reset_0_peripheral_aresetn 1 2 1 N -110
+preplace netloc PS|processing_system7_0_FCLK_CLK0 1 0 3 760 -170 1220 -250 NJ
+preplace netloc PS|processing_system7_0_FCLK_RESET0_N 1 1 1 1230 -230n
+preplace netloc PS|Conn1 1 0 1 N -260
+preplace netloc PS|processing_system7_0_DDR 1 1 2 N -290 NJ
+preplace netloc PS|processing_system7_0_FIXED_IO 1 1 2 N -270 NJ
+levelinfo -pg 1 -10 840 1780
+levelinfo -hier PS * 990 1400 *
+levelinfo -hier DMA * 940 1260 *
+pagesize -pg 1 -db -bbox -sgen -210 -630 2520 580
+pagesize -hier PS -db -bbox -sgen 730 -350 1600 -50
+pagesize -hier DMA -db -bbox -sgen 730 70 1430 290
+"
+}
+{
+   "da_axi4_cnt":"4",
+   "da_board_cnt":"2",
+   "da_clkrst_cnt":"5",
+   "da_ps7_cnt":"1"
+}

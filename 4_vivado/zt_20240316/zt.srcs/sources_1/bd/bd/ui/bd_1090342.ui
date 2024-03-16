@@ -1,0 +1,33 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-383,64",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 2 -x 500 -y 0 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 2 -x 500 -y 20 -defaultsOSRD
+preplace port port-id_fb_right_0 -pg 1 -lvl 0 -x -170 -y 390 -defaultsOSRD
+preplace port port-id_fb_middle_0 -pg 1 -lvl 0 -x -170 -y 410 -defaultsOSRD
+preplace port port-id_fb_left_0 -pg 1 -lvl 0 -x -170 -y 430 -defaultsOSRD
+preplace inst PS -pg 1 -lvl 1 -x 310 -y 30 -defaultsOSRD
+preplace inst DMA -pg 1 -lvl 1 -x 310 -y 220 -defaultsOSRD
+preplace inst lf_sampler_axi_maste_0 -pg 1 -lvl 1 -x 310 -y 390 -defaultsOSRD
+preplace netloc aclk_0_1 1 0 2 150 120 470
+preplace netloc aresetn_0_1 1 0 2 160 290 480
+preplace netloc fb_right_0_1 1 0 1 N 390
+preplace netloc fb_middle_0_1 1 0 1 N 410
+preplace netloc fb_left_0_1 1 0 1 N 430
+preplace netloc PS_DDR 1 1 1 NJ 0
+preplace netloc PS_FIXED_IO 1 1 1 NJ 20
+preplace netloc DMA_M00_AXI_0 1 0 2 160 110 460
+preplace netloc lf_sampler_axi_maste_0_Axi 1 0 2 160 140 470
+levelinfo -pg 1 -170 310 500
+pagesize -pg 1 -db -bbox -sgen -340 -280 870 540
+"
+}
+{
+   "da_board_cnt":"1",
+   "da_clkrst_cnt":"2",
+   "da_ps7_cnt":"1"
+}

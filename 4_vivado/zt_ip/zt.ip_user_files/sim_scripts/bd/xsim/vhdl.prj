@@ -1,0 +1,19 @@
+vhdl xil_defaultlib  \
+"../../../../zt.gen/sources_1/bd/bd/ip/bd_proc_sys_reset_0_0/sim/bd_proc_sys_reset_0_0.vhd" \
+"../../../../zt.gen/sources_1/bd/bd/ip/bd_axi_dma_0_0/sim/bd_axi_dma_0_0.vhd" \
+"../../../../zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_0/ip/ip_1/sim/bd_4a17_psr_aclk_0.vhd" \
+"../../../../zt.gen/sources_1/bd/bd/ipshared/818b/hdl/lf_sampler_axi_master_v1_0_M00_AXIS.vhd" \
+
+vhdl zt_lib  \
+"../../../../zt.gen/sources_1/bd/bd/ipshared/818b/src/lf_prescaler.vhd" \
+"../../../../zt.gen/sources_1/bd/bd/ipshared/818b/src/lf_sampler.vhd" \
+"../../../../zt.gen/sources_1/bd/bd/ipshared/818b/src/lf_sampler_control.vhd" \
+"../../../../zt.gen/sources_1/bd/bd/ipshared/818b/src/lf_common_pkg.vhd" \
+"../../../../zt.gen/sources_1/bd/bd/ipshared/818b/hdl/lf_sampler_axi_master_v1_0.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../zt.gen/sources_1/bd/bd/ip/bd_lf_sampler_axi_master_0_2/sim/bd_lf_sampler_axi_master_0_2.vhd" \
+"../../../../zt.gen/sources_1/bd/bd/sim/bd.vhd" \
+
+# Do not sort compile order
+nosort

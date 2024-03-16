@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sat Mar 16 14:19:11 2024
+# Process ID: 10016
+# Current directory: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/bd_axi_dma_0_0_synth_1
+# Command line: vivado.exe -log bd_axi_dma_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_axi_dma_0_0.tcl
+# Log file: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/bd_axi_dma_0_0_synth_1/bd_axi_dma_0_0.vds
+# Journal file: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/bd_axi_dma_0_0_synth_1\vivado.jou
+# Running On: DESKTOP-EOOIIGE, OS: Windows, CPU Frequency: 1996 MHz, CPU Physical cores: 8, Host memory: 16539 MB
+#-----------------------------------------------------------
+source bd_axi_dma_0_0.tcl -notrace

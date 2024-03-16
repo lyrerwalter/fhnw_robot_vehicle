@@ -1,0 +1,1066 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sat Mar 16 14:22:47 2024
+# Process ID: 2276
+# Current directory: C:/FHNW/prj2/fhnw_zt/4_vivado/zt
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10860 C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.xpr
+# Log file: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/vivado.log
+# Journal file: C:/FHNW/prj2/fhnw_zt/4_vivado/zt\vivado.jou
+# Running On: DESKTOP-EOOIIGE, OS: Windows, CPU Frequency: 1996 MHz, CPU Physical cores: 8, Host memory: 16539 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'bd_lf_sampler_axi_master_0_1' generated file not found 'c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_lf_sampler_axi_master_0_1/bd_lf_sampler_axi_master_0_1.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_lf_sampler_axi_master_0_1' generated file not found 'c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_lf_sampler_axi_master_0_1/bd_lf_sampler_axi_master_0_1_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_lf_sampler_axi_master_0_1' generated file not found 'c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_lf_sampler_axi_master_0_1/bd_lf_sampler_axi_master_0_1_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_lf_sampler_axi_master_0_1' generated file not found 'c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_lf_sampler_axi_master_0_1/bd_lf_sampler_axi_master_0_1_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_lf_sampler_axi_master_0_1' generated file not found 'c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_lf_sampler_axi_master_0_1/bd_lf_sampler_axi_master_0_1_sim_netlist.vhdl'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 2514.910 ; gain = 418.367
+update_compile_order -fileset sources_1
+open_bd_design {C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd}
+Reading block design file <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - smartconnect_0
+Adding component instance block -- xilinx.com:user:lf_sampler_axi_master:1.0 - lf_sampler_axi_master_0
+Successfully read diagram <bd> from block design file <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd>
+delete_bd_objs [get_bd_intf_nets lf_sampler_axi_master_0_M00_AXIS] [get_bd_cells lf_sampler_axi_master_0]
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0'.
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:lf_sampler_axi_master:1.0 lf_sampler_axi_master_0
+endgroup
+set_property location {1 157 271} [get_bd_cells lf_sampler_axi_master_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:smartconnect:1.0 smartconnect_0
+endgroup
+set_property location {2 388 265} [get_bd_cells smartconnect_0]
+set_property CONFIG.NUM_SI {1} [get_bd_cells smartconnect_0]
+delete_bd_objs [get_bd_cells smartconnect_0]
+connect_bd_intf_net [get_bd_intf_pins lf_sampler_axi_master_0/M00_AXIS] -boundary_type upper [get_bd_intf_pins DMA/S_AXIS_S2MM_0]
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config { Clk {/PS/processing_system7_0/FCLK_CLK0 (125 MHz)} Freq {100} Ref_Clk0 {} Ref_Clk1 {} Ref_Clk2 {}}  [get_bd_pins lf_sampler_axi_master_0/m00_axis_aclk]
+startgroup
+make_bd_pins_external  [get_bd_pins lf_sampler_axi_master_0/fb_right]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins lf_sampler_axi_master_0/fb_middle]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins lf_sampler_axi_master_0/fb_left]
+endgroup
+set_property location {2 369 305} [get_bd_cells lf_sampler_axi_master_0]
+set_property location {1 524 -162} [get_bd_cells PS]
+set_property location {1.5 688 -149} [get_bd_cells PS]
+set_property location {2 619 309} [get_bd_cells lf_sampler_axi_master_0]
+set_property location {0.5 162 293} [get_bd_cells lf_sampler_axi_master_0]
+set_property location {1 159 307} [get_bd_cells lf_sampler_axi_master_0]
+set_property location {1 161 301} [get_bd_cells lf_sampler_axi_master_0]
+save_bd_design
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_1090342.ui> 
+validate_bd_design
+WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /PS/proc_sys_reset_0 -filter {path == /PS/processing_system7_0/Data}'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects /PS/proc_sys_reset_0'
+INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/DMA/smartconnect_0/S00_AXI' to master interface '/DMA/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] bd_smartconnect_0_0: SmartConnect bd_smartconnect_0_0 is in High-performance Mode.
+save_bd_design
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_1090342.ui> 
+make_wrapper -files [get_files C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd] -top
+INFO: [BD 41-1662] The design 'bd.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_1090342.ui> 
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/synth/bd.vhd
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/sim/bd.vhd
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/hdl/bd_wrapper.vhd
+import_files -force -norecurse c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/hdl/bd_wrapper.vhd
+export_ip_user_files -of_objects  [get_files C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/imports/hdl/bd_wrapper.vhd] -no_script -reset -force -quiet
+remove_files  C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/imports/hdl/bd_wrapper.vhd
+add_files -norecurse C:/FHNW/prj2/fhnw_zt/4_vivado/src/bd_wrapper.vhd
+validate_bd_design -force
+WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /PS/proc_sys_reset_0 -filter {path == /PS/processing_system7_0/Data}'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects /PS/proc_sys_reset_0'
+INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/DMA/smartconnect_0/S00_AXI' to master interface '/DMA/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] bd_smartconnect_0_0: SmartConnect bd_smartconnect_0_0 is in High-performance Mode.
+reset_run bd_smartconnect_0_0_synth_1
+save_bd_design
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+launch_runs synth_1 -jobs 4
+INFO: [BD 41-1662] The design 'bd.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/synth/bd.vhd
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/sim/bd.vhd
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/hdl/bd_wrapper.vhd
+Exporting to file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_0/hw_handoff/bd_smartconnect_0_0.hwh
+Generated Hardware Definition File c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_0/synth/bd_smartconnect_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DMA/smartconnect_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block lf_sampler_axi_master_0 .
+Exporting to file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/hw_handoff/bd.hwh
+Generated Hardware Definition File c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/synth/bd.hwdef
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_smartconnect_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry c262096396829b48 to dir: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0.dcp to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_sim_netlist.v to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_sim_netlist.vhdl to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_stub.v to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_stub.vhdl to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP bd_smartconnect_0_0, cache-ID = c262096396829b48; cache size = 7.877 MB.
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Sat Mar 16 14:31:17 2024] Launched bd_lf_sampler_axi_master_0_2_synth_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/bd_lf_sampler_axi_master_0_2_synth_1/runme.log
+[Sat Mar 16 14:31:17 2024] Launched synth_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 2953.098 ; gain = 46.402
+ipx::edit_ip_in_project -upgrade true -name lf_sampler_axi_master_v1_0_project -directory C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.tmp/lf_sampler_axi_master_v1_0_project c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+update_compile_order -fileset sources_1
+add_files -norecurse -copy_to c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_common_pkg.vhd
+set_property library zt_lib [get_files  c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_common_pkg.vhd]
+update_compile_order -fileset sources_1
+ipx::merge_project_changes files [ipx::current_core]
+export_ip_user_files -of_objects  [get_files c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_common_pkg.vhd] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_prescaler.vhd] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_sampler.vhd] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_sampler_control.vhd] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_std_logic_adapter.vhd] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_sampler_axi_master_control.vhd] -no_script -reset -force -quiet
+remove_files  {c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_common_pkg.vhd c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_prescaler.vhd c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_sampler.vhd c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_sampler_control.vhd c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_std_logic_adapter.vhd c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_sampler_axi_master_control.vhd}
+add_files -norecurse -copy_to c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src {C:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/lf_sampler.vhd C:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/lf_prescaler.vhd C:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/lf_sampler_control.vhd C:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/lf_common_pkg.vhd C:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/lf_std_logic_adapter.vhd}
+ERROR: [Vivado 12-3630] The destination file 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_sampler.vhd' already exists, please use -force if you want to overwrite!
+add_files -norecurse -copy_to c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src {C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_prescaler.vhd C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_sampler_control.vhd C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_std_logic_adapter.vhd C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_sampler.vhd C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_common_pkg.vhd}
+set_property library zt_lib [get_files  {c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_prescaler.vhd c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_sampler_control.vhd c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_std_logic_adapter.vhd c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_sampler.vhd c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_common_pkg.vhd}]
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_std_logic_adapter.vhd] -no_script -reset -force -quiet
+remove_files  c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_std_logic_adapter.vhd
+add_files -norecurse -copy_to c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src {C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_sampler_axi_master_control.vhd C:/FHNW/prj2/fhnw_zt/2_hdl/zt_lib/src/lf_axi_master_adapter.vhd}
+set_property library zt_lib [get_files  {c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_sampler_axi_master_control.vhd c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_axi_master_adapter.vhd}]
+update_compile_order -fileset sources_1
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': File 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_std_logic_adapter.vhd' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': File 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_std_logic_adapter.vhd' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+ipgui::add_param -name {FREQ_HZ} -component [ipx::current_core] -display_name {Freq Hz} -show_label {true} -show_range {true} -widget {comboBox}
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+WARNING: [IP_Flow 19-5905] All packaged files should be located below the IP definition file (xml)
+INFO: [IP_Flow 19-7067] Note that bus interface 'M00_AXIS_CLK' has a fixed FREQ_HZ of ''. This value will be respected whenever this IP is instantiated in IP Integrator.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0'
+report_ip_status -name ip_status 
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0'.
+upgrade_ip -vlnv xilinx.com:user:lf_sampler_axi_master:1.0 [get_ips  bd_lf_sampler_axi_master_0_2] -log ip_upgrade.log
+Upgrading 'C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd'
+INFO: [IP_Flow 19-3422] Upgraded bd_lf_sampler_axi_master_0_2 (lf_sampler_axi_master_v1.0 1.0) from revision 1 to revision 2
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/FHNW/prj2/fhnw_zt/4_vivado/zt/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips bd_lf_sampler_axi_master_0_2] -no_script -sync -force -quiet
+generate_target all [get_files  C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd]
+WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /PS/proc_sys_reset_0 -filter {path == /PS/processing_system7_0/Data}'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects /PS/proc_sys_reset_0'
+INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/DMA/smartconnect_0/S00_AXI' to master interface '/DMA/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] bd_smartconnect_0_0: SmartConnect bd_smartconnect_0_0 is in High-performance Mode.
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/synth/bd.vhd
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/sim/bd.vhd
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/hdl/bd_wrapper.vhd
+Exporting to file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_0/hw_handoff/bd_smartconnect_0_0.hwh
+Generated Hardware Definition File c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_0/synth/bd_smartconnect_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DMA/smartconnect_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block lf_sampler_axi_master_0 .
+Exporting to file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/hw_handoff/bd.hwh
+Generated Hardware Definition File c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/synth/bd.hwdef
+generate_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 3012.262 ; gain = 0.000
+catch { config_ip_cache -export [get_ips -all bd_smartconnect_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_smartconnect_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry c262096396829b48 to dir: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0.dcp to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_sim_netlist.v to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_sim_netlist.vhdl to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_stub.v to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_stub.vhdl to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP bd_smartconnect_0_0, cache-ID = c262096396829b48; cache size = 7.877 MB.
+catch { config_ip_cache -export [get_ips -all bd_lf_sampler_axi_master_0_2] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_lf_sampler_axi_master_0_2
+export_ip_user_files -of_objects [get_files C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd]
+launch_runs bd_lf_sampler_axi_master_0_2_synth_1 -jobs 4
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_lf_sampler_axi_master_0_2
+[Sat Mar 16 14:45:35 2024] Launched bd_lf_sampler_axi_master_0_2_synth_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/bd_lf_sampler_axi_master_0_2_synth_1/runme.log
+export_simulation -of_objects [get_files C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd] -directory C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.ip_user_files/sim_scripts -ip_user_files_dir C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.ip_user_files -ipstatic_source_dir C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/compile_simlib/modelsim} {questa=C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/compile_simlib/questa} {riviera=C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/compile_simlib/riviera} {activehdl=C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+validate_bd_design -force
+WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /PS/proc_sys_reset_0 -filter {path == /PS/processing_system7_0/Data}'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects /PS/proc_sys_reset_0'
+INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/DMA/smartconnect_0/S00_AXI' to master interface '/DMA/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] bd_smartconnect_0_0: SmartConnect bd_smartconnect_0_0 is in High-performance Mode.
+report_ip_status -name ip_status 
+save_bd_design
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [BD 41-1662] The design 'bd.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/synth/bd.vhd
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/sim/bd.vhd
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/hdl/bd_wrapper.vhd
+Exporting to file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_0/hw_handoff/bd_smartconnect_0_0.hwh
+Generated Hardware Definition File c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_0/synth/bd_smartconnect_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DMA/smartconnect_0 .
+Exporting to file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/hw_handoff/bd.hwh
+Generated Hardware Definition File c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/synth/bd.hwdef
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP bd_lf_sampler_axi_master_0_2
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP bd_smartconnect_0_0
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_lf_sampler_axi_master_0_2
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_smartconnect_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry c262096396829b48 to dir: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0.dcp to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_sim_netlist.v to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_sim_netlist.vhdl to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_stub.v to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_stub.vhdl to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP bd_smartconnect_0_0, cache-ID = c262096396829b48; cache size = 7.877 MB.
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Sat Mar 16 14:46:23 2024] Launched bd_lf_sampler_axi_master_0_2_synth_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/bd_lf_sampler_axi_master_0_2_synth_1/runme.log
+[Sat Mar 16 14:46:23 2024] Launched synth_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 3012.262 ; gain = 0.000
+launch_runs impl_1 -jobs 4
+[Sat Mar 16 14:48:18 2024] Launched impl_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/impl_1/runme.log
+ipx::edit_ip_in_project -upgrade true -name lf_sampler_axi_master_v1_0_project -directory C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.tmp/lf_sampler_axi_master_v1_0_project c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+update_compile_order -fileset sources_1
+ipx::merge_project_changes files [ipx::current_core]
+export_ip_user_files -of_objects  [get_files c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_axi_master_adapter.vhd] -no_script -reset -force -quiet
+remove_files  c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_axi_master_adapter.vhd
+export_ip_user_files -of_objects  [get_files c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_sampler_axi_master_control.vhd] -no_script -reset -force -quiet
+remove_files  c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_sampler_axi_master_control.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+ipx::unload_core c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/component.xml
+ipx::open_ipxact_file c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/component.xml
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': File 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_sampler_axi_master_control.vhd' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': File 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_axi_master_adapter.vhd' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': File 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_sampler_axi_master_control.vhd' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': File 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_axi_master_adapter.vhd' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': File 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_sampler_axi_master_control.vhd' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': File 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_axi_master_adapter.vhd' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': File 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_sampler_axi_master_control.vhd' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': File 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/src/lf_axi_master_adapter.vhd' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0'
+ipx::unload_core c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/component.xml
+ipx::open_ipxact_file c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/component.xml
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0'
+ipx::unload_core c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/component.xml
+ipx::open_ipxact_file c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/component.xml
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+WARNING: [IP_Flow 19-5905] All packaged files should be located below the IP definition file (xml)
+INFO: [IP_Flow 19-7067] Note that bus interface 'M00_AXIS_CLK' has a fixed FREQ_HZ of ''. This value will be respected whenever this IP is instantiated in IP Integrator.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0'
+close_project
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0'.
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:user:lf_sampler_axi_master:1.0 [get_ips  bd_lf_sampler_axi_master_0_2] -log ip_upgrade.log
+Upgrading 'C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd'
+INFO: [IP_Flow 19-3422] Upgraded bd_lf_sampler_axi_master_0_2 (lf_sampler_axi_master_v1.0 1.0) from revision 2 to revision 3
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_1090342.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/FHNW/prj2/fhnw_zt/4_vivado/zt/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips bd_lf_sampler_axi_master_0_2] -no_script -sync -force -quiet
+generate_target all [get_files  C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd]
+WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /PS/proc_sys_reset_0 -filter {path == /PS/processing_system7_0/Data}'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects /PS/proc_sys_reset_0'
+INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/DMA/smartconnect_0/S00_AXI' to master interface '/DMA/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] bd_smartconnect_0_0: SmartConnect bd_smartconnect_0_0 is in High-performance Mode.
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/synth/bd.vhd
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/sim/bd.vhd
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/hdl/bd_wrapper.vhd
+Exporting to file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_0/hw_handoff/bd_smartconnect_0_0.hwh
+Generated Hardware Definition File c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_0/synth/bd_smartconnect_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DMA/smartconnect_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block lf_sampler_axi_master_0 .
+Exporting to file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/hw_handoff/bd.hwh
+Generated Hardware Definition File c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/synth/bd.hwdef
+generate_target: Time (s): cpu = 00:00:04 ; elapsed = 00:00:11 . Memory (MB): peak = 3153.871 ; gain = 0.000
+catch { config_ip_cache -export [get_ips -all bd_smartconnect_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_smartconnect_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry c262096396829b48 to dir: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0.dcp to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_sim_netlist.v to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_sim_netlist.vhdl to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_stub.v to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_stub.vhdl to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP bd_smartconnect_0_0, cache-ID = c262096396829b48; cache size = 7.877 MB.
+catch { config_ip_cache -export [get_ips -all bd_lf_sampler_axi_master_0_2] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_lf_sampler_axi_master_0_2
+export_ip_user_files -of_objects [get_files C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd]
+launch_runs bd_lf_sampler_axi_master_0_2_synth_1 -jobs 4
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_lf_sampler_axi_master_0_2
+[Sat Mar 16 15:22:27 2024] Launched bd_lf_sampler_axi_master_0_2_synth_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/bd_lf_sampler_axi_master_0_2_synth_1/runme.log
+export_simulation -of_objects [get_files C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd] -directory C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.ip_user_files/sim_scripts -ip_user_files_dir C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.ip_user_files -ipstatic_source_dir C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/compile_simlib/modelsim} {questa=C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/compile_simlib/questa} {riviera=C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/compile_simlib/riviera} {activehdl=C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+validate_bd_design -force
+WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /PS/proc_sys_reset_0 -filter {path == /PS/processing_system7_0/Data}'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects /PS/proc_sys_reset_0'
+INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/DMA/smartconnect_0/S00_AXI' to master interface '/DMA/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] bd_smartconnect_0_0: SmartConnect bd_smartconnect_0_0 is in High-performance Mode.
+report_ip_status -name ip_status 
+save_bd_design
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+reset_run bd_lf_sampler_axi_master_0_2_synth_1
+reset_run synth_1
+INFO: [Project 1-1160] Copying file C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/synth_1/bd_wrapper.dcp to C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs synth_1 -jobs 4
+INFO: [BD 41-1662] The design 'bd.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/synth/bd.vhd
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/sim/bd.vhd
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/hdl/bd_wrapper.vhd
+Exporting to file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_0/hw_handoff/bd_smartconnect_0_0.hwh
+Generated Hardware Definition File c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_0/synth/bd_smartconnect_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DMA/smartconnect_0 .
+Exporting to file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/hw_handoff/bd.hwh
+Generated Hardware Definition File c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/synth/bd.hwdef
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP bd_lf_sampler_axi_master_0_2
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP bd_smartconnect_0_0
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_lf_sampler_axi_master_0_2
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_smartconnect_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry c262096396829b48 to dir: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0.dcp to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_sim_netlist.v to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_sim_netlist.vhdl to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_stub.v to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_stub.vhdl to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP bd_smartconnect_0_0, cache-ID = c262096396829b48; cache size = 7.877 MB.
+[Sat Mar 16 15:23:11 2024] Launched bd_lf_sampler_axi_master_0_2_synth_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/bd_lf_sampler_axi_master_0_2_synth_1/runme.log
+[Sat Mar 16 15:23:11 2024] Launched synth_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 3153.871 ; gain = 0.000
+ipx::edit_ip_in_project -upgrade true -name lf_sampler_axi_master_v1_0_project -directory C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.tmp/lf_sampler_axi_master_v1_0_project c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+update_compile_order -fileset sources_1
+ipx::merge_project_changes files [ipx::current_core]
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property core_revision 4 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+WARNING: [IP_Flow 19-5905] All packaged files should be located below the IP definition file (xml)
+INFO: [IP_Flow 19-7067] Note that bus interface 'M00_AXIS_CLK' has a fixed FREQ_HZ of ''. This value will be respected whenever this IP is instantiated in IP Integrator.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0'
+report_ip_status -name ip_status 
+upgrade_ip -vlnv xilinx.com:user:lf_sampler_axi_master:1.0 [get_ips  bd_lf_sampler_axi_master_0_2] -log ip_upgrade.log
+Upgrading 'C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd'
+INFO: [IP_Flow 19-3422] Upgraded bd_lf_sampler_axi_master_0_2 (lf_sampler_axi_master_v1.0 1.0) from revision 3 to revision 4
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/FHNW/prj2/fhnw_zt/4_vivado/zt/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips bd_lf_sampler_axi_master_0_2] -no_script -sync -force -quiet
+generate_target all [get_files  C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd]
+WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /PS/proc_sys_reset_0 -filter {path == /PS/processing_system7_0/Data}'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects /PS/proc_sys_reset_0'
+INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/DMA/smartconnect_0/S00_AXI' to master interface '/DMA/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] bd_smartconnect_0_0: SmartConnect bd_smartconnect_0_0 is in High-performance Mode.
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/synth/bd.vhd
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/sim/bd.vhd
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/hdl/bd_wrapper.vhd
+Exporting to file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_0/hw_handoff/bd_smartconnect_0_0.hwh
+Generated Hardware Definition File c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_0/synth/bd_smartconnect_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DMA/smartconnect_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block lf_sampler_axi_master_0 .
+Exporting to file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/hw_handoff/bd.hwh
+Generated Hardware Definition File c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/synth/bd.hwdef
+generate_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 3929.074 ; gain = 0.066
+catch { config_ip_cache -export [get_ips -all bd_smartconnect_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_smartconnect_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry c262096396829b48 to dir: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0.dcp to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_sim_netlist.v to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_sim_netlist.vhdl to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_stub.v to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_stub.vhdl to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP bd_smartconnect_0_0, cache-ID = c262096396829b48; cache size = 7.877 MB.
+catch { config_ip_cache -export [get_ips -all bd_lf_sampler_axi_master_0_2] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_lf_sampler_axi_master_0_2
+export_ip_user_files -of_objects [get_files C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd]
+launch_runs bd_lf_sampler_axi_master_0_2_synth_1 -jobs 4
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_lf_sampler_axi_master_0_2
+[Sat Mar 16 15:25:49 2024] Launched bd_lf_sampler_axi_master_0_2_synth_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/bd_lf_sampler_axi_master_0_2_synth_1/runme.log
+export_simulation -of_objects [get_files C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd] -directory C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.ip_user_files/sim_scripts -ip_user_files_dir C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.ip_user_files -ipstatic_source_dir C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/compile_simlib/modelsim} {questa=C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/compile_simlib/questa} {riviera=C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/compile_simlib/riviera} {activehdl=C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+validate_bd_design -force
+WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /PS/proc_sys_reset_0 -filter {path == /PS/processing_system7_0/Data}'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects /PS/proc_sys_reset_0'
+INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/DMA/smartconnect_0/S00_AXI' to master interface '/DMA/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] bd_smartconnect_0_0: SmartConnect bd_smartconnect_0_0 is in High-performance Mode.
+save_bd_design
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [BD 41-1662] The design 'bd.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/synth/bd.vhd
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/sim/bd.vhd
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/hdl/bd_wrapper.vhd
+Exporting to file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_0/hw_handoff/bd_smartconnect_0_0.hwh
+Generated Hardware Definition File c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_0/synth/bd_smartconnect_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DMA/smartconnect_0 .
+Exporting to file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/hw_handoff/bd.hwh
+Generated Hardware Definition File c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/synth/bd.hwdef
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP bd_lf_sampler_axi_master_0_2
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP bd_smartconnect_0_0
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_lf_sampler_axi_master_0_2
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_smartconnect_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry c262096396829b48 to dir: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0.dcp to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_sim_netlist.v to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_sim_netlist.vhdl to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_stub.v to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_stub.vhdl to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP bd_smartconnect_0_0, cache-ID = c262096396829b48; cache size = 7.877 MB.
+[Sat Mar 16 15:26:29 2024] Launched bd_lf_sampler_axi_master_0_2_synth_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/bd_lf_sampler_axi_master_0_2_synth_1/runme.log
+[Sat Mar 16 15:26:29 2024] Launched synth_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 3950.566 ; gain = 11.734
+ipx::edit_ip_in_project -upgrade true -name lf_sampler_axi_master_v1_0_project -directory C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.tmp/lf_sampler_axi_master_v1_0_project c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+ipx::merge_project_changes files [ipx::current_core]
+set_property core_revision 5 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+WARNING: [IP_Flow 19-5905] All packaged files should be located below the IP definition file (xml)
+INFO: [IP_Flow 19-7067] Note that bus interface 'M00_AXIS_CLK' has a fixed FREQ_HZ of ''. This value will be respected whenever this IP is instantiated in IP Integrator.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0'
+report_ip_status -name ip_status 
+upgrade_ip -vlnv xilinx.com:user:lf_sampler_axi_master:1.0 [get_ips  bd_lf_sampler_axi_master_0_2] -log ip_upgrade.log
+Upgrading 'C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd'
+INFO: [IP_Flow 19-3422] Upgraded bd_lf_sampler_axi_master_0_2 (lf_sampler_axi_master_v1.0 1.0) from revision 4 to revision 5
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/FHNW/prj2/fhnw_zt/4_vivado/zt/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips bd_lf_sampler_axi_master_0_2] -no_script -sync -force -quiet
+generate_target all [get_files  C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd]
+WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /PS/proc_sys_reset_0 -filter {path == /PS/processing_system7_0/Data}'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects /PS/proc_sys_reset_0'
+INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/DMA/smartconnect_0/S00_AXI' to master interface '/DMA/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] bd_smartconnect_0_0: SmartConnect bd_smartconnect_0_0 is in High-performance Mode.
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/synth/bd.vhd
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/sim/bd.vhd
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/hdl/bd_wrapper.vhd
+Exporting to file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_0/hw_handoff/bd_smartconnect_0_0.hwh
+Generated Hardware Definition File c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_0/synth/bd_smartconnect_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DMA/smartconnect_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block lf_sampler_axi_master_0 .
+Exporting to file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/hw_handoff/bd.hwh
+Generated Hardware Definition File c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/synth/bd.hwdef
+generate_target: Time (s): cpu = 00:00:04 ; elapsed = 00:00:11 . Memory (MB): peak = 3964.211 ; gain = 0.000
+catch { config_ip_cache -export [get_ips -all bd_smartconnect_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_smartconnect_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry c262096396829b48 to dir: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0.dcp to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_sim_netlist.v to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_sim_netlist.vhdl to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_stub.v to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_stub.vhdl to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP bd_smartconnect_0_0, cache-ID = c262096396829b48; cache size = 7.877 MB.
+catch { config_ip_cache -export [get_ips -all bd_lf_sampler_axi_master_0_2] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_lf_sampler_axi_master_0_2
+export_ip_user_files -of_objects [get_files C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd]
+launch_runs bd_lf_sampler_axi_master_0_2_synth_1 -jobs 4
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_lf_sampler_axi_master_0_2
+[Sat Mar 16 15:48:49 2024] Launched bd_lf_sampler_axi_master_0_2_synth_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/bd_lf_sampler_axi_master_0_2_synth_1/runme.log
+export_simulation -of_objects [get_files C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd] -directory C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.ip_user_files/sim_scripts -ip_user_files_dir C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.ip_user_files -ipstatic_source_dir C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/compile_simlib/modelsim} {questa=C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/compile_simlib/questa} {riviera=C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/compile_simlib/riviera} {activehdl=C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_lf_sampler_axi_master_0_2
+[Sat Mar 16 15:49:19 2024] Launched bd_lf_sampler_axi_master_0_2_synth_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/bd_lf_sampler_axi_master_0_2_synth_1/runme.log
+[Sat Mar 16 15:49:19 2024] Launched synth_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Sat Mar 16 15:51:21 2024] Launched impl_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.198 . Memory (MB): peak = 4105.539 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 75 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.588 . Memory (MB): peak = 4820.828 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.589 . Memory (MB): peak = 4820.828 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 4820.828 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 28 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 28 instances
+
+open_run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 4828.598 ; gain = 848.215
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sat Mar 16 15:54:15 2024] Launched impl_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/impl_1/runme.log
+ipx::edit_ip_in_project -upgrade true -name lf_sampler_axi_master_v1_0_project -directory C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.tmp/lf_sampler_axi_master_v1_0_project c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+update_compile_order -fileset sources_1
+set_property core_revision 6 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+WARNING: [IP_Flow 19-5905] All packaged files should be located below the IP definition file (xml)
+INFO: [IP_Flow 19-7067] Note that bus interface 'M00_AXIS_CLK' has a fixed FREQ_HZ of ''. This value will be respected whenever this IP is instantiated in IP Integrator.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0'
+add_files -fileset constrs_1 -norecurse C:/FHNW/prj2/fhnw_zt/4_vivado/constraints/Zybo-Z7-Master.xdc
+open_bd_design {C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd}
+report_ip_status -name ip_status 
+upgrade_ip -vlnv xilinx.com:user:lf_sampler_axi_master:1.0 [get_ips  bd_lf_sampler_axi_master_0_2] -log ip_upgrade.log
+Upgrading 'C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd'
+INFO: [IP_Flow 19-3422] Upgraded bd_lf_sampler_axi_master_0_2 (lf_sampler_axi_master_v1.0 1.0) from revision 5 to revision 6
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/FHNW/prj2/fhnw_zt/4_vivado/zt/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips bd_lf_sampler_axi_master_0_2] -no_script -sync -force -quiet
+generate_target all [get_files  C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd]
+WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /PS/proc_sys_reset_0 -filter {path == /PS/processing_system7_0/Data}'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects /PS/proc_sys_reset_0'
+INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/DMA/smartconnect_0/S00_AXI' to master interface '/DMA/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] bd_smartconnect_0_0: SmartConnect bd_smartconnect_0_0 is in High-performance Mode.
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/synth/bd.vhd
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/sim/bd.vhd
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/hdl/bd_wrapper.vhd
+Exporting to file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_0/hw_handoff/bd_smartconnect_0_0.hwh
+Generated Hardware Definition File c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_0/synth/bd_smartconnect_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DMA/smartconnect_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block lf_sampler_axi_master_0 .
+Exporting to file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/hw_handoff/bd.hwh
+Generated Hardware Definition File c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/synth/bd.hwdef
+generate_target: Time (s): cpu = 00:00:04 ; elapsed = 00:00:12 . Memory (MB): peak = 4828.598 ; gain = 0.000
+catch { config_ip_cache -export [get_ips -all bd_smartconnect_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_smartconnect_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry c262096396829b48 to dir: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0.dcp to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_sim_netlist.v to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_sim_netlist.vhdl to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_stub.v to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_stub.vhdl to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP bd_smartconnect_0_0, cache-ID = c262096396829b48; cache size = 7.877 MB.
+catch { config_ip_cache -export [get_ips -all bd_lf_sampler_axi_master_0_2] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_lf_sampler_axi_master_0_2
+export_ip_user_files -of_objects [get_files C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd]
+launch_runs bd_lf_sampler_axi_master_0_2_synth_1 -jobs 4
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_lf_sampler_axi_master_0_2
+[Sat Mar 16 15:58:04 2024] Launched bd_lf_sampler_axi_master_0_2_synth_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/bd_lf_sampler_axi_master_0_2_synth_1/runme.log
+export_simulation -of_objects [get_files C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd] -directory C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.ip_user_files/sim_scripts -ip_user_files_dir C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.ip_user_files -ipstatic_source_dir C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/compile_simlib/modelsim} {questa=C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/compile_simlib/questa} {riviera=C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/compile_simlib/riviera} {activehdl=C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+validate_bd_design -force
+WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /PS/proc_sys_reset_0 -filter {path == /PS/processing_system7_0/Data}'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects /PS/proc_sys_reset_0'
+INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/DMA/smartconnect_0/S00_AXI' to master interface '/DMA/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] bd_smartconnect_0_0: SmartConnect bd_smartconnect_0_0 is in High-performance Mode.
+save_bd_design
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_1090342.ui> 
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/utils_1/imports/synth_1/bd_wrapper.dcp with file C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/synth_1/bd_wrapper.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+INFO: [BD 41-1662] The design 'bd.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/synth/bd.vhd
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/sim/bd.vhd
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/hdl/bd_wrapper.vhd
+Exporting to file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_0/hw_handoff/bd_smartconnect_0_0.hwh
+Generated Hardware Definition File c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_0/synth/bd_smartconnect_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DMA/smartconnect_0 .
+Exporting to file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/hw_handoff/bd.hwh
+Generated Hardware Definition File c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/synth/bd.hwdef
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP bd_lf_sampler_axi_master_0_2
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP bd_smartconnect_0_0
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_lf_sampler_axi_master_0_2
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_smartconnect_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry c262096396829b48 to dir: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0.dcp to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_sim_netlist.v to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_sim_netlist.vhdl to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_stub.v to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_stub.vhdl to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP bd_smartconnect_0_0, cache-ID = c262096396829b48; cache size = 7.877 MB.
+[Sat Mar 16 15:58:51 2024] Launched bd_lf_sampler_axi_master_0_2_synth_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/bd_lf_sampler_axi_master_0_2_synth_1/runme.log
+[Sat Mar 16 15:58:51 2024] Launched synth_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 4828.598 ; gain = 0.000
+launch_runs impl_1 -jobs 4
+[Sat Mar 16 16:00:52 2024] Launched impl_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sat Mar 16 16:02:54 2024] Launched impl_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/impl_1/runme.log
+ipx::edit_ip_in_project -upgrade true -name lf_sampler_axi_master_v1_0_project -directory C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.tmp/lf_sampler_axi_master_v1_0_project c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+update_compile_order -fileset sources_1
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+ipx::merge_project_changes files [ipx::current_core]
+set_property core_revision 7 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+WARNING: [IP_Flow 19-5905] All packaged files should be located below the IP definition file (xml)
+INFO: [IP_Flow 19-7067] Note that bus interface 'M00_AXIS_CLK' has a fixed FREQ_HZ of ''. This value will be respected whenever this IP is instantiated in IP Integrator.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0'
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/FHNW/prj2/fhnw_zt/4_vivado/ip_repo/lf_sampler_axi_master_1_0'.
+report_ip_status -name ip_status 
+upgrade_ip -vlnv xilinx.com:user:lf_sampler_axi_master:1.0 [get_ips  bd_lf_sampler_axi_master_0_2] -log ip_upgrade.log
+Upgrading 'C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd'
+INFO: [IP_Flow 19-3422] Upgraded bd_lf_sampler_axi_master_0_2 (lf_sampler_axi_master_v1.0 1.0) from revision 6 to revision 7
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_1090342.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/FHNW/prj2/fhnw_zt/4_vivado/zt/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips bd_lf_sampler_axi_master_0_2] -no_script -sync -force -quiet
+generate_target all [get_files  C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd]
+WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /PS/proc_sys_reset_0 -filter {path == /PS/processing_system7_0/Data}'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects /PS/proc_sys_reset_0'
+INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/DMA/smartconnect_0/S00_AXI' to master interface '/DMA/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] bd_smartconnect_0_0: SmartConnect bd_smartconnect_0_0 is in High-performance Mode.
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/synth/bd.vhd
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/sim/bd.vhd
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/hdl/bd_wrapper.vhd
+Exporting to file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_0/hw_handoff/bd_smartconnect_0_0.hwh
+Generated Hardware Definition File c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_0/synth/bd_smartconnect_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DMA/smartconnect_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block lf_sampler_axi_master_0 .
+Exporting to file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/hw_handoff/bd.hwh
+Generated Hardware Definition File c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/synth/bd.hwdef
+generate_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:12 . Memory (MB): peak = 4828.598 ; gain = 0.000
+catch { config_ip_cache -export [get_ips -all bd_smartconnect_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_smartconnect_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry c262096396829b48 to dir: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0.dcp to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_sim_netlist.v to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_sim_netlist.vhdl to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_stub.v to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_stub.vhdl to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP bd_smartconnect_0_0, cache-ID = c262096396829b48; cache size = 8.162 MB.
+catch { config_ip_cache -export [get_ips -all bd_lf_sampler_axi_master_0_2] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_lf_sampler_axi_master_0_2
+export_ip_user_files -of_objects [get_files C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd]
+launch_runs bd_lf_sampler_axi_master_0_2_synth_1 -jobs 4
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_lf_sampler_axi_master_0_2
+[Sat Mar 16 16:10:14 2024] Launched bd_lf_sampler_axi_master_0_2_synth_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/bd_lf_sampler_axi_master_0_2_synth_1/runme.log
+export_simulation -of_objects [get_files C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/bd.bd] -directory C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.ip_user_files/sim_scripts -ip_user_files_dir C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.ip_user_files -ipstatic_source_dir C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/compile_simlib/modelsim} {questa=C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/compile_simlib/questa} {riviera=C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/compile_simlib/riviera} {activehdl=C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+validate_bd_design -force
+WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /PS/proc_sys_reset_0 -filter {path == /PS/processing_system7_0/Data}'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects /PS/proc_sys_reset_0'
+INFO: [BD 5-943] Reserving offset range <0x0000_0000 [ 512M ]> from slave interface '/DMA/smartconnect_0/S00_AXI' to master interface '/DMA/smartconnect_0/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] bd_smartconnect_0_0: SmartConnect bd_smartconnect_0_0 is in High-performance Mode.
+save_bd_design
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/utils_1/imports/synth_1/bd_wrapper.dcp with file C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/synth_1/bd_wrapper.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+INFO: [BD 41-1662] The design 'bd.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/synth/bd.vhd
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/sim/bd.vhd
+VHDL Output written to : c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/hdl/bd_wrapper.vhd
+Exporting to file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_0/hw_handoff/bd_smartconnect_0_0.hwh
+Generated Hardware Definition File c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_0/synth/bd_smartconnect_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DMA/smartconnect_0 .
+Exporting to file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/hw_handoff/bd.hwh
+Generated Hardware Definition File c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/synth/bd.hwdef
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP bd_lf_sampler_axi_master_0_2
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP bd_smartconnect_0_0
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_lf_sampler_axi_master_0_2
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_smartconnect_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry c262096396829b48 to dir: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0.dcp to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_sim_netlist.v to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_sim_netlist.vhdl to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_stub.v to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.cache/ip/2023.1/c/2/c262096396829b48/bd_smartconnect_0_0_stub.vhdl to c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.gen/sources_1/bd/bd/ip/bd_smartconnect_0_0/bd_smartconnect_0_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP bd_smartconnect_0_0, cache-ID = c262096396829b48; cache size = 8.162 MB.
+[Sat Mar 16 16:10:53 2024] Launched bd_lf_sampler_axi_master_0_2_synth_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/bd_lf_sampler_axi_master_0_2_synth_1/runme.log
+[Sat Mar 16 16:10:53 2024] Launched synth_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 4828.598 ; gain = 0.000
+launch_runs impl_1 -jobs 4
+[Sat Mar 16 16:12:51 2024] Launched impl_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sat Mar 16 16:14:29 2024] Launched impl_1...
+Run output will be captured here: C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.runs/impl_1/runme.log
+write_hw_platform -fixed -include_bit -force -file C:/FHNW/prj2/fhnw_zt/4_vivado/SDKExport/bd_wrapper.xsa
+INFO: [Project 1-1918] Creating Hardware Platform: C:/FHNW/prj2/fhnw_zt/4_vivado/SDKExport/bd_wrapper.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/FHNW/prj2/fhnw_zt/4_vivado/SDKExport/bd_wrapper.xsa
+INFO: [Hsi 55-2053] elapsed time for repository (C:/Xilinx/Vivado/2023.1/data/embeddedsw) loading 1 seconds
+set_property location {1019 -157} [get_bd_intf_ports FIXED_IO]
+set_property location {1020 -179} [get_bd_intf_ports DDR]
+move_bd_cells [get_bd_cells /] [get_bd_cells DMA/smartconnect_0]
+move_bd_cells [get_bd_cells DMA] [get_bd_cells smartconnect_0]
+set_property location {2 570 10} [get_bd_cells DMA]
+set_property location {2.5 843 -67} [get_bd_cells DMA]
+set_property location {2 1020 286} [get_bd_cells lf_sampler_axi_master_0]
+set_property location {143 252} [get_bd_ports fb_right_0]
+set_property location {1 1231 -292} [get_bd_cells PS]
+set_property location {1794 -292} [get_bd_intf_ports DDR]
+set_property location {1797 -270} [get_bd_intf_ports FIXED_IO]
+set_property location {-31 471} [get_bd_ports fb_left_0]
+set_property location {-21 449} [get_bd_ports fb_middle_0]
+set_property location {-24 476} [get_bd_ports fb_left_0]
+set_property location {-28 435} [get_bd_ports fb_right_0]
+set_property location {-26 472} [get_bd_ports fb_left_0]
+pwd
+C:/FHNW/prj2/fhnw_zt/4_vivado/zt
+cd ..
+source ./4_vivado_before_checkin.tcl
+# write_project_tcl -force -paths_relative_to . -origin_dir_override . project.tcl
+INFO: [BD 5-453] Writing out BD creation steps for bd as a TCL proc
+WARNING: [BD 5-452] The block design bd has not been validated, therefore, a block design created using this Tcl proc may result in errors during validation.
+INFO: [Vivado-projutils-8] Tcl script 'project.tcl' generated in output directory 'C:/FHNW/prj2/fhnw_zt/4_vivado'
+
+INFO: [Vivado-projutils-17] Please note that the -paths_relative_to switch was specified, hence the project source files will be referenced wrt the
+ path that was specified with this switch. The 'origin_dir' variable is set to '.' in the generated script.
+
+WARNING: [Vivado-projutils-10] Found source(s) that were local or imported into the project. If this project is being source controlled, then
+ please ensure that the project source(s) are also part of this source controlled data. The list of these local source(s) can be found in the generated script
+ under the header section.
+
+save_bd_design
+Wrote  : <C:\FHNW\prj2\fhnw_zt\4_vivado\zt\zt.srcs\sources_1\bd\bd\bd.bd> 
+Wrote  : <C:/FHNW/prj2/fhnw_zt/4_vivado/zt/zt.srcs/sources_1/bd/bd/ui/bd_1090342.ui> 
+source ./4_vivado_before_checkin.tcl
+# write_project_tcl -force -paths_relative_to . -origin_dir_override . project.tcl
+INFO: [BD 5-453] Writing out BD creation steps for bd as a TCL proc
+WARNING: [BD 5-452] The block design bd has not been validated, therefore, a block design created using this Tcl proc may result in errors during validation.
+INFO: [Vivado-projutils-8] Tcl script 'project.tcl' generated in output directory 'C:/FHNW/prj2/fhnw_zt/4_vivado'
+
+INFO: [Vivado-projutils-17] Please note that the -paths_relative_to switch was specified, hence the project source files will be referenced wrt the
+ path that was specified with this switch. The 'origin_dir' variable is set to '.' in the generated script.
+
+WARNING: [Vivado-projutils-10] Found source(s) that were local or imported into the project. If this project is being source controlled, then
+ please ensure that the project source(s) are also part of this source controlled data. The list of these local source(s) can be found in the generated script
+ under the header section.
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Mar 16 18:38:14 2024...
